@@ -1,234 +1,115 @@
 [
   {
-    "objectID": "reports/sj.html",
-    "href": "reports/sj.html",
-    "title": "System justification",
+    "objectID": "reports/vote.html",
+    "href": "reports/vote.html",
+    "title": "Vote intention",
     "section": "",
-    "text": "This report covers System justification: 500 respondents linked by exercise_id across 5 waves (1 to 5), measured with 8 items on a 1 to 7 response scale. A wave score is the mean of the valid items, computed only when at least 75% of the items have a valid response. Documented non-answer codes are recoded to missing before scoring. The item table shows the keying listed in the guide (reverse_guide) and the keying applied (reverse); see decision D17 in the repository’s decision log.\n\n\n\nItems, wording and keying. Subscale labels are provisional until checked against a factor model.\n\n\n\n\n\n\n\n\n\nitem\nsubscale\nwording_en\nreverse_guide\nreverse\n\n\n\n\n1\nnone\nIn general, you find society to be fair.\nFALSE\nFALSE\n\n\n2\nnone\nIn general, the German political system operates as it should.\nFALSE\nFALSE\n\n\n3\nnone\nGerman society needs to be radically restructured.\nTRUE\nFALSE\n\n\n4\nnone\nGermany is the best country in the world to live in.\nFALSE\nFALSE\n\n\n5\nnone\nMost policies serve the greater good.\nFALSE\nFALSE\n\n\n6\nnone\nEveryone has a fair shot at wealth and happiness.\nFALSE\nFALSE\n\n\n7\nnone\nOur society is getting worse every year.\nTRUE\nFALSE\n\n\n8\nnone\nSociety is set up so that people usually get what they deserve.\nFALSE\nFALSE"
+    "text": "This report covers vote intention: 500 respondents across 5 waves (1 to 5). Vote intention is a categorical outcome with 9 response categories plus a “Missing” category. The categories “Would not vote” and “Undecided” were only offered from wave 2, so wave 1 cannot be compared with later waves for those two categories.\nDisclosure rules (decision D22, extended): counts of 1 to 9 are shown as “&lt;10”. Because the number of respondents is stated, a table with one hidden cell in a row or column also hides the smallest visible positive cell there (“suppressed”), so no hidden cell can be recovered by subtraction. Zero counts are shown as 0."
   },
   {
-    "objectID": "reports/sj.html#descriptives-by-wave",
-    "href": "reports/sj.html#descriptives-by-wave",
-    "title": "System justification",
+    "objectID": "reports/vote.html#wave-1-to-wave-2",
+    "href": "reports/vote.html#wave-1-to-wave-2",
+    "title": "Vote intention",
+    "section": "Wave 1 to wave 2",
+    "text": "Wave 1 to wave 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAfD\nOther party\nGreens\nCDU/CSU\nLeft\nFDP\nSPD\nWould not vote\nUndecided\nMissing\n\n\n\n\nAfD\n40\n0\n0\n&lt;10\n&lt;10\n&lt;10\n0\n&lt;10\n&lt;10\n0\n\n\nOther party\n&lt;10\n17\n0\n&lt;10\n0\n0\n0\n&lt;10\n&lt;10\n0\n\n\nGreens\n0\n0\n84\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n0\n&lt;10\n0\n\n\nCDU/CSU\n0\n0\n&lt;10\n74\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n\n\nLeft\n&lt;10\n0\n&lt;10\n&lt;10\n27\n&lt;10\n0\n0\n&lt;10\n0\n\n\nFDP\n&lt;10\n&lt;10\n0\n&lt;10\n&lt;10\n25\n0\n&lt;10\n10\n0\n\n\nSPD\n&lt;10\n0\n&lt;10\n&lt;10\n&lt;10\n0\n62\n&lt;10\n10\n&lt;10\n\n\nWould not vote\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n\n\nUndecided\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n\n\nMissing\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n13\n32\n&lt;10"
+  },
+  {
+    "objectID": "reports/vote.html#wave-2-to-wave-3",
+    "href": "reports/vote.html#wave-2-to-wave-3",
+    "title": "Vote intention",
+    "section": "Wave 2 to wave 3",
+    "text": "Wave 2 to wave 3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAfD\nOther party\nGreens\nCDU/CSU\nLeft\nFDP\nSPD\nWould not vote\nUndecided\nMissing\n\n\n\n\nAfD\n43\n&lt;10\n0\n0\n&lt;10\n&lt;10\n0\n&lt;10\n&lt;10\n&lt;10\n\n\nOther party\n0\n16\n0\n&lt;10\n0\n0\n0\n0\n&lt;10\n0\n\n\nGreens\n0\n0\n82\n&lt;10\n0\n0\n&lt;10\n&lt;10\n&lt;10\n0\n\n\nCDU/CSU\n0\n&lt;10\n0\n81\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n\n\nLeft\n&lt;10\n&lt;10\n&lt;10\n0\n28\n0\n&lt;10\n&lt;10\n&lt;10\n0\n\n\nFDP\n&lt;10\n0\n&lt;10\n&lt;10\n0\n23\n0\n0\n&lt;10\n0\n\n\nSPD\n0\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n0\n57\n0\n&lt;10\n0\n\n\nWould not vote\n&lt;10\n0\n0\n&lt;10\n0\n0\n&lt;10\n14\n&lt;10\n&lt;10\n\n\nUndecided\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n50\n&lt;10\n\n\nMissing\n0\n0\n&lt;10\n&lt;10\n0\n0\n0\n0\n&lt;10\n&lt;10"
+  },
+  {
+    "objectID": "reports/vote.html#wave-3-to-wave-4",
+    "href": "reports/vote.html#wave-3-to-wave-4",
+    "title": "Vote intention",
+    "section": "Wave 3 to wave 4",
+    "text": "Wave 3 to wave 4\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAfD\nOther party\nGreens\nCDU/CSU\nLeft\nFDP\nSPD\nWould not vote\nUndecided\nMissing\n\n\n\n\nAfD\n47\n&lt;10\n0\n&lt;10\n&lt;10\n0\n0\n&lt;10\n&lt;10\n&lt;10\n\n\nOther party\n&lt;10\n17\n0\n&lt;10\n0\n0\n0\n0\n&lt;10\n0\n\n\nGreens\n&lt;10\n0\n71\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n0\n&lt;10\n&lt;10\n\n\nCDU/CSU\n&lt;10\n&lt;10\n0\n75\n0\n&lt;10\n&lt;10\n0\n&lt;10\n0\n\n\nLeft\n&lt;10\n&lt;10\n0\n&lt;10\n25\n0\n&lt;10\n0\n&lt;10\n0\n\n\nFDP\n&lt;10\n0\n0\n&lt;10\n&lt;10\n20\n0\n&lt;10\n&lt;10\n0\n\n\nSPD\n&lt;10\n0\n&lt;10\n&lt;10\n&lt;10\n0\n46\n&lt;10\n&lt;10\n&lt;10\n\n\nWould not vote\n&lt;10\n&lt;10\n0\n&lt;10\n&lt;10\n0\n0\n12\n&lt;10\n0\n\n\nUndecided\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n0\n&lt;10\n&lt;10\n&lt;10\n44\n&lt;10\n\n\nMissing\n&lt;10\n0\n0\n&lt;10\n0\n0\n0\n0\n&lt;10\n&lt;10"
+  },
+  {
+    "objectID": "reports/vote.html#wave-4-to-wave-5",
+    "href": "reports/vote.html#wave-4-to-wave-5",
+    "title": "Vote intention",
+    "section": "Wave 4 to wave 5",
+    "text": "Wave 4 to wave 5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAfD\nOther party\nGreens\nCDU/CSU\nLeft\nFDP\nSPD\nWould not vote\nUndecided\nMissing\n\n\n\n\nAfD\n62\n&lt;10\n0\n&lt;10\n0\n0\n0\n&lt;10\n&lt;10\n&lt;10\n\n\nOther party\n&lt;10\n20\n0\n&lt;10\n&lt;10\n0\n0\n0\n&lt;10\n&lt;10\n\n\nGreens\n0\n0\n65\n&lt;10\n&lt;10\n0\n&lt;10\n0\n&lt;10\n0\n\n\nCDU/CSU\n&lt;10\n&lt;10\n&lt;10\n86\n0\n0\n&lt;10\n0\n&lt;10\n0\n\n\nLeft\n&lt;10\n&lt;10\n0\n0\n22\n0\n0\n0\n&lt;10\n0\n\n\nFDP\n&lt;10\n0\n&lt;10\n&lt;10\n0\n20\n0\n&lt;10\n&lt;10\n&lt;10\n\n\nSPD\n0\n&lt;10\n&lt;10\n&lt;10\n0\n&lt;10\n41\n0\n&lt;10\n&lt;10\n\n\nWould not vote\n&lt;10\n0\n0\n&lt;10\n&lt;10\n0\n0\n&lt;10\n&lt;10\n&lt;10\n\n\nUndecided\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n0\n&lt;10\n53\n&lt;10\n\n\nMissing\n0\n&lt;10\n0\n0\n0\n0\n&lt;10\n0\n&lt;10\n&lt;10"
+  },
+  {
+    "objectID": "reports/vote.html#wave-1-to-wave-5",
+    "href": "reports/vote.html#wave-1-to-wave-5",
+    "title": "Vote intention",
+    "section": "Wave 1 to wave 5",
+    "text": "Wave 1 to wave 5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAfD\nOther party\nGreens\nCDU/CSU\nLeft\nFDP\nSPD\nWould not vote\nUndecided\nMissing\n\n\n\n\nAfD\n42\n&lt;10\n&lt;10\n&lt;10\n0\n0\n0\n&lt;10\n&lt;10\n0\n\n\nOther party\n&lt;10\n16\n0\n&lt;10\n0\n0\n0\n&lt;10\n&lt;10\n&lt;10\n\n\nGreens\n&lt;10\n0\n65\n&lt;10\n&lt;10\n0\n&lt;10\n0\n15\n0\n\n\nCDU/CSU\n&lt;10\n&lt;10\n&lt;10\n71\n0\n&lt;10\n&lt;10\n0\n&lt;10\n0\n\n\nLeft\n&lt;10\n&lt;10\n0\n&lt;10\n20\n0\n&lt;10\n0\n&lt;10\n&lt;10\n\n\nFDP\n&lt;10\n&lt;10\n0\n&lt;10\n&lt;10\n18\n0\n0\n&lt;10\n&lt;10\n\n\nSPD\n&lt;10\n&lt;10\n&lt;10\n16\n&lt;10\n&lt;10\n42\n&lt;10\n14\n&lt;10\n\n\nWould not vote\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n\n\nUndecided\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n\n\nMissing\n&lt;10\n&lt;10\n0\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n&lt;10\n30\n&lt;10"
+  },
+  {
+    "objectID": "reports/vote.html#wave-1",
+    "href": "reports/vote.html#wave-1",
+    "title": "Vote intention",
+    "section": "Wave 1",
+    "text": "Wave 1\n\n\n\nCategory\nn\nRWA\nSDO\nBDW\nCWV\nSJ\n\n\n\n\nAfD\n50\n4.23\n3.87\n4.98\n2.99\n2.79\n\n\nOther party\n31\n3.73\n2.80\n4.59\n1.85\n2.94\n\n\nGreens\n98\n3.68\n2.74\n3.43\n1.88\n4.28\n\n\nCDU/CSU\n86\n4.51\n3.44\n3.80\n2.32\n4.32\n\n\nLeft\n36\n3.56\n2.34\n4.09\n2.06\n3.28\n\n\nFDP\n42\n4.04\n3.43\n3.73\n2.37\n4.12\n\n\nSPD\n91\n4.28\n3.13\n3.69\n2.11\n4.35\n\n\nWould not vote\n0\nNA\nNA\nNA\nNA\nNA\n\n\nUndecided\n0\nNA\nNA\nNA\nNA\nNA"
+  },
+  {
+    "objectID": "reports/vote.html#wave-5",
+    "href": "reports/vote.html#wave-5",
+    "title": "Vote intention",
+    "section": "Wave 5",
+    "text": "Wave 5\n\n\n\nCategory\nn\nRWA\nSDO\nBDW\nCWV\nSJ\n\n\n\n\nAfD\n70\n4.45\n3.87\n5.24\n2.79\n2.54\n\n\nOther party\n39\n4.01\n2.96\n4.80\n2.22\n3.09\n\n\nGreens\n73\n3.48\n2.58\n3.51\n1.73\n4.43\n\n\nCDU/CSU\n109\n4.62\n3.43\n3.93\n2.16\n4.32\n\n\nLeft\n29\n3.23\n1.97\n3.39\n1.86\n3.36\n\n\nFDP\n23\n4.22\n3.45\n3.72\n2.32\n4.30\n\n\nSPD\n49\n4.23\n3.04\n3.73\n1.85\n4.50\n\n\nWould not vote\n11\n4.20\n3.80\n4.69\n2.61\n3.45\n\n\nUndecided\n85\n4.13\n3.24\n4.25\n2.11\n3.62"
+  },
+  {
+    "objectID": "reports/sdo.html",
+    "href": "reports/sdo.html",
+    "title": "Social dominance orientation",
+    "section": "",
+    "text": "This report covers Social dominance orientation: 500 respondents linked by exercise_id across 5 waves (1 to 5), measured with 8 items on a 1 to 7 response scale. A wave score is the mean of the valid items, computed only when at least 75% of the items have a valid response. Documented non-answer codes are recoded to missing before scoring. The item table shows the keying listed in the guide (reverse_guide) and the keying applied (reverse); see decision D17 in the repository’s decision log.\n\n\n\nItems, wording and keying. Subscale labels are provisional until checked against a factor model.\n\n\n\n\n\n\n\n\n\nitem\nsubscale\nwording_en\nreverse_guide\nreverse\n\n\n\n\n1\ndominance\nAn ideal society requires some groups to be on top and others to be on the bottom.\nFALSE\nFALSE\n\n\n2\ndominance\nSome groups of people are simply inferior to other groups.\nFALSE\nFALSE\n\n\n3\ndominance\nNo one group should dominate in society.\nTRUE\nFALSE\n\n\n4\ndominance\nGroups at the bottom are just as deserving as groups at the top.\nTRUE\nFALSE\n\n\n5\nantiegalitarianism\nGroup equality should not be our primary goal.\nFALSE\nFALSE\n\n\n6\nantiegalitarianism\nIt is unjust to try to make groups equal.\nFALSE\nFALSE\n\n\n7\nantiegalitarianism\nWe should do what we can to equalize conditions for different groups.\nTRUE\nFALSE\n\n\n8\nantiegalitarianism\nWe should work to give all groups an equal chance to succeed.\nTRUE\nFALSE"
+  },
+  {
+    "objectID": "reports/sdo.html#descriptives-by-wave",
+    "href": "reports/sdo.html#descriptives-by-wave",
+    "title": "Social dominance orientation",
     "section": "Descriptives by wave",
-    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n3.87\n1.14\n0.05\n4.00\n\n\n2\n500\n3.68\n1.20\n0.05\n3.75\n\n\n3\n500\n3.84\n1.18\n0.05\n3.88\n\n\n4\n500\n3.79\n1.17\n0.05\n3.88\n\n\n5\n500\n3.79\n1.20\n0.05\n3.88"
+    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n3.16\n0.94\n0.04\n3.25\n\n\n2\n500\n3.12\n1.01\n0.05\n3.25\n\n\n3\n500\n3.13\n0.99\n0.04\n3.25\n\n\n4\n500\n3.22\n0.98\n0.04\n3.38\n\n\n5\n500\n3.18\n1.02\n0.05\n3.25"
   },
   {
-    "objectID": "reports/sj.html#missing-and-invalid-responses-by-wave",
-    "href": "reports/sj.html#missing-and-invalid-responses-by-wave",
-    "title": "System justification",
+    "objectID": "reports/sdo.html#missing-and-invalid-responses-by-wave",
+    "href": "reports/sdo.html#missing-and-invalid-responses-by-wave",
+    "title": "Social dominance orientation",
     "section": "Missing and invalid responses by wave",
     "text": "Missing and invalid responses by wave\n\n\n\nRespondents without a wave score, and respondents with at least one missing or invalid item (including recoded non-answer codes). Counts of 1 to 9 are masked.\n\n\nwave\nrespondents\nno_score\nat_least_one_invalid_item\n\n\n\n\n1\n500\n0\n0\n\n\n2\n500\n0\n0\n\n\n3\n500\n0\n0\n\n\n4\n500\n0\n0\n\n\n5\n500\n0\n0"
   },
   {
-    "objectID": "reports/sj.html#psychometrics",
-    "href": "reports/sj.html#psychometrics",
-    "title": "System justification",
+    "objectID": "reports/sdo.html#psychometrics",
+    "href": "reports/sdo.html#psychometrics",
+    "title": "Social dominance orientation",
     "section": "Psychometrics",
     "text": "Psychometrics\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Reliability (alpha, omega) and factor structure need item-level data. They will be computed locally and saved as an aggregate-only file that this report reads."
   },
   {
-    "objectID": "reports/sj.html#demographic-and-political-correlates",
-    "href": "reports/sj.html#demographic-and-political-correlates",
-    "title": "System justification",
+    "objectID": "reports/sdo.html#demographic-and-political-correlates",
+    "href": "reports/sdo.html#demographic-and-political-correlates",
+    "title": "Social dominance orientation",
     "section": "Demographic and political correlates",
     "text": "Demographic and political correlates\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Pending the item-guide entries for the covariates."
   },
   {
-    "objectID": "reports/sj.html#can-scores-be-compared-across-waves",
-    "href": "reports/sj.html#can-scores-be-compared-across-waves",
-    "title": "System justification",
+    "objectID": "reports/sdo.html#can-scores-be-compared-across-waves",
+    "href": "reports/sdo.html#can-scores-be-compared-across-waves",
+    "title": "Social dominance orientation",
     "section": "Can scores be compared across waves?",
     "text": "Can scores be compared across waves?\nFor this construct, the same 8 items with the same wording appear in every wave, and the response scale is 1 to 7 in all of them (one range for all items). Documented non-answer codes: none. The repository’s validation checks (decision log D01 to D16) found no differences in wording, response options or range between waves. Wave scores are therefore on the same metric, and mean-level comparison across waves is defensible. This establishes that the scores are comparable on paper; it does not show measurement invariance, which would need a longitudinal factor model and is listed as a limitation."
   },
   {
-    "objectID": "reports/sj.html#mean-change-and-rank-order-stability",
-    "href": "reports/sj.html#mean-change-and-rank-order-stability",
-    "title": "System justification",
+    "objectID": "reports/sdo.html#mean-change-and-rank-order-stability",
+    "href": "reports/sdo.html#mean-change-and-rank-order-stability",
+    "title": "Social dominance orientation",
     "section": "Mean change and rank-order stability",
-    "text": "Mean change and rank-order stability\nEstimates use every respondent with a score at both waves (available-case). Intervals are 95% confidence intervals on the paired differences. They are estimates with uncertainty, not significance tests, because many wave pairs are shown. dz is the mean change in units of the SD of the change scores.\n\n\n\nAdjacent waves, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n-0.18\n-0.25\n-0.12\n-0.23\n0.77\n\n\nW2 to W3\n500\n0.16\n0.09\n0.23\n0.21\n0.80\n\n\nW3 to W4\n500\n-0.05\n-0.12\n0.01\n-0.07\n0.79\n\n\nW4 to W5\n500\n0.00\n-0.06\n0.06\n0.00\n0.84\n\n\n\n\n\n\n\n\nLonger intervals, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W3\n500\n-0.02\n-0.09\n0.04\n-0.03\n0.77\n\n\nW1 to W4\n500\n-0.08\n-0.14\n-0.01\n-0.10\n0.76\n\n\nW1 to W5\n500\n-0.07\n-0.14\n-0.01\n-0.10\n0.76\n\n\nW2 to W4\n500\n0.11\n0.04\n0.18\n0.14\n0.79\n\n\nW2 to W5\n500\n0.11\n0.04\n0.18\n0.14\n0.79\n\n\nW3 to W5\n500\n-0.05\n-0.11\n0.01\n-0.07\n0.80\n\n\n\n\n\n\n\n\n\n\nMean score per wave with 95% CI (y-axis truncated to the range of the intervals)."
+    "text": "Mean change and rank-order stability\nEstimates use every respondent with a score at both waves (available-case). Intervals are 95% confidence intervals on the paired differences. They are estimates with uncertainty, not significance tests, because many wave pairs are shown. dz is the mean change in units of the SD of the change scores.\n\n\n\nAdjacent waves, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n-0.04\n-0.10\n0.03\n-0.05\n0.69\n\n\nW2 to W3\n500\n0.01\n-0.06\n0.08\n0.02\n0.67\n\n\nW3 to W4\n500\n0.09\n0.03\n0.16\n0.13\n0.71\n\n\nW4 to W5\n500\n-0.04\n-0.10\n0.02\n-0.06\n0.72\n\n\n\n\n\n\n\n\nLonger intervals, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W3\n500\n-0.03\n-0.09\n0.04\n-0.04\n0.68\n\n\nW1 to W4\n500\n0.06\n0.00\n0.13\n0.08\n0.65\n\n\nW1 to W5\n500\n0.02\n-0.04\n0.09\n0.03\n0.72\n\n\nW2 to W4\n500\n0.10\n0.04\n0.17\n0.13\n0.65\n\n\nW2 to W5\n500\n0.06\n-0.01\n0.13\n0.08\n0.65\n\n\nW3 to W5\n500\n0.05\n-0.02\n0.11\n0.07\n0.71\n\n\n\n\n\n\n\n\n\n\nMean score per wave with 95% CI (y-axis truncated to the range of the intervals)."
   },
   {
-    "objectID": "reports/sj.html#robustness-balanced-panel",
-    "href": "reports/sj.html#robustness-balanced-panel",
-    "title": "System justification",
+    "objectID": "reports/sdo.html#robustness-balanced-panel",
+    "href": "reports/sdo.html#robustness-balanced-panel",
+    "title": "Social dominance orientation",
     "section": "Robustness: balanced panel",
-    "text": "Robustness: balanced panel\nThe balanced panel keeps the 500 of 500 respondents with a score at every wave. The largest absolute difference in mean change between the available-case and balanced-panel estimates is 0.\n\nAdjacent waves, balanced panel.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n-0.18\n-0.25\n-0.12\n-0.23\n0.77\n\n\nW2 to W3\n500\n0.16\n0.09\n0.23\n0.21\n0.80\n\n\nW3 to W4\n500\n-0.05\n-0.12\n0.01\n-0.07\n0.79\n\n\nW4 to W5\n500\n0.00\n-0.06\n0.06\n0.00\n0.84"
-  },
-  {
-    "objectID": "reports/rwa.html",
-    "href": "reports/rwa.html",
-    "title": "Right-wing authoritarianism",
-    "section": "",
-    "text": "This report covers Right-wing authoritarianism: 500 respondents linked by exercise_id across 5 waves (1 to 5), measured with 9 items on a 1 to 7 response scale. A wave score is the mean of the valid items, computed only when at least 75% of the items have a valid response. Documented non-answer codes are recoded to missing before scoring. The item table shows the keying listed in the guide (reverse_guide) and the keying applied (reverse); see decision D17 in the repository’s decision log.\n\n\n\nItems, wording and keying. Subscale labels are provisional until checked against a factor model.\n\n\n\n\n\n\n\n\n\nitem\nsubscale\nwording_en\nreverse_guide\nreverse\n\n\n\n\n1\naggression\nWe should take strong action against misfits and slackers in society.\nFALSE\nFALSE\n\n\n2\naggression\nTroublemakers should be made to feel that they are not welcome in society.\nFALSE\nFALSE\n\n\n3\naggression\nRules in society should be enforced without pity.\nFALSE\nFALSE\n\n\n4\nsubmission\nWe need strong leaders so that we can live safely in society.\nFALSE\nFALSE\n\n\n5\nsubmission\nPeople should leave important decisions in society to their leaders.\nFALSE\nFALSE\n\n\n6\nsubmission\nWe should be grateful for leaders telling us exactly what to do.\nFALSE\nFALSE\n\n\n7\nconventionalism\nTraditions should definitely be carried on and kept alive.\nFALSE\nFALSE\n\n\n8\nconventionalism\nWell-established behavior should not be questioned.\nFALSE\nFALSE\n\n\n9\nconventionalism\nIt’s always best to do things in the usual way.\nFALSE\nFALSE"
-  },
-  {
-    "objectID": "reports/rwa.html#descriptives-by-wave",
-    "href": "reports/rwa.html#descriptives-by-wave",
-    "title": "Right-wing authoritarianism",
-    "section": "Descriptives by wave",
-    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n4.08\n1.09\n0.05\n4.11\n\n\n2\n500\n4.02\n1.10\n0.05\n4.11\n\n\n3\n500\n4.09\n1.16\n0.05\n4.22\n\n\n4\n500\n4.08\n1.17\n0.05\n4.22\n\n\n5\n500\n4.14\n1.11\n0.05\n4.22"
-  },
-  {
-    "objectID": "reports/rwa.html#missing-and-invalid-responses-by-wave",
-    "href": "reports/rwa.html#missing-and-invalid-responses-by-wave",
-    "title": "Right-wing authoritarianism",
-    "section": "Missing and invalid responses by wave",
-    "text": "Missing and invalid responses by wave\n\n\n\nRespondents without a wave score, and respondents with at least one missing or invalid item (including recoded non-answer codes). Counts of 1 to 9 are masked.\n\n\nwave\nrespondents\nno_score\nat_least_one_invalid_item\n\n\n\n\n1\n500\n0\n0\n\n\n2\n500\n0\n0\n\n\n3\n500\n0\n0\n\n\n4\n500\n0\n0\n\n\n5\n500\n0\n0"
-  },
-  {
-    "objectID": "reports/rwa.html#psychometrics",
-    "href": "reports/rwa.html#psychometrics",
-    "title": "Right-wing authoritarianism",
-    "section": "Psychometrics",
-    "text": "Psychometrics\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Reliability (alpha, omega) and factor structure need item-level data. They will be computed locally and saved as an aggregate-only file that this report reads."
-  },
-  {
-    "objectID": "reports/rwa.html#demographic-and-political-correlates",
-    "href": "reports/rwa.html#demographic-and-political-correlates",
-    "title": "Right-wing authoritarianism",
-    "section": "Demographic and political correlates",
-    "text": "Demographic and political correlates\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Pending the item-guide entries for the covariates."
-  },
-  {
-    "objectID": "reports/rwa.html#can-scores-be-compared-across-waves",
-    "href": "reports/rwa.html#can-scores-be-compared-across-waves",
-    "title": "Right-wing authoritarianism",
-    "section": "Can scores be compared across waves?",
-    "text": "Can scores be compared across waves?\nFor this construct, the same 9 items with the same wording appear in every wave, and the response scale is 1 to 7 in all of them (one range for all items). Documented non-answer codes: none. The repository’s validation checks (decision log D01 to D16) found no differences in wording, response options or range between waves. Wave scores are therefore on the same metric, and mean-level comparison across waves is defensible. This establishes that the scores are comparable on paper; it does not show measurement invariance, which would need a longitudinal factor model and is listed as a limitation."
-  },
-  {
-    "objectID": "reports/rwa.html#mean-change-and-rank-order-stability",
-    "href": "reports/rwa.html#mean-change-and-rank-order-stability",
-    "title": "Right-wing authoritarianism",
-    "section": "Mean change and rank-order stability",
-    "text": "Mean change and rank-order stability\nEstimates use every respondent with a score at both waves (available-case). Intervals are 95% confidence intervals on the paired differences. They are estimates with uncertainty, not significance tests, because many wave pairs are shown. dz is the mean change in units of the SD of the change scores.\n\n\n\nAdjacent waves, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n-0.05\n-0.11\n0.01\n-0.07\n0.79\n\n\nW2 to W3\n500\n0.06\n-0.01\n0.13\n0.08\n0.75\n\n\nW3 to W4\n500\n-0.01\n-0.07\n0.05\n-0.01\n0.79\n\n\nW4 to W5\n500\n0.06\n0.00\n0.12\n0.09\n0.78\n\n\n\n\n\n\n\n\nLonger intervals, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W3\n500\n0.01\n-0.05\n0.07\n0.01\n0.78\n\n\nW1 to W4\n500\n0.00\n-0.06\n0.07\n0.00\n0.77\n\n\nW1 to W5\n500\n0.06\n0.00\n0.12\n0.09\n0.78\n\n\nW2 to W4\n500\n0.05\n-0.01\n0.12\n0.07\n0.76\n\n\nW2 to W5\n500\n0.11\n0.05\n0.18\n0.16\n0.77\n\n\nW3 to W5\n500\n0.05\n-0.02\n0.12\n0.07\n0.76\n\n\n\n\n\n\n\n\n\n\nMean score per wave with 95% CI (y-axis truncated to the range of the intervals)."
-  },
-  {
-    "objectID": "reports/rwa.html#robustness-balanced-panel",
-    "href": "reports/rwa.html#robustness-balanced-panel",
-    "title": "Right-wing authoritarianism",
-    "section": "Robustness: balanced panel",
-    "text": "Robustness: balanced panel\nThe balanced panel keeps the 500 of 500 respondents with a score at every wave. The largest absolute difference in mean change between the available-case and balanced-panel estimates is 0.\n\nAdjacent waves, balanced panel.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n-0.05\n-0.11\n0.01\n-0.07\n0.79\n\n\nW2 to W3\n500\n0.06\n-0.01\n0.13\n0.08\n0.75\n\n\nW3 to W4\n500\n-0.01\n-0.07\n0.05\n-0.01\n0.79\n\n\nW4 to W5\n500\n0.06\n0.00\n0.12\n0.09\n0.78"
-  },
-  {
-    "objectID": "reports/bdw.html",
-    "href": "reports/bdw.html",
-    "title": "Belief in a dangerous world",
-    "section": "",
-    "text": "This report covers Belief in a dangerous world: 500 respondents linked by exercise_id across 5 waves (1 to 5), measured with 5 items on a 1 to 7 response scale. A wave score is the mean of the valid items, computed only when at least 75% of the items have a valid response. Documented non-answer codes are recoded to missing before scoring. The item table shows the keying listed in the guide (reverse_guide) and the keying applied (reverse); see decision D17 in the repository’s decision log.\n\n\n\nItems, wording and keying. Subscale labels are provisional until checked against a factor model.\n\n\n\n\n\n\n\n\n\nitem\nsubscale\nwording_en\nreverse_guide\nreverse\n\n\n\n\n1\nnone\nAny day now chaos and anarchy could erupt around us. All the signs are pointing to it.\nFALSE\nFALSE\n\n\n2\nnone\nMy knowledge and experience tells me that the social world we live in is basically a safe, stable and secure place in which most people are fundamentally good.\nTRUE\nFALSE\n\n\n3\nnone\nAlthough it may appear that things are constantly getting more dangerous and chaotic, it really isn’t so.\nTRUE\nFALSE\n\n\n4\nnone\nEvery era has its problems, and a person’s chances of living a safe, untroubled life are better today than ever before.\nTRUE\nFALSE\n\n\n5\nnone\nThere are many dangerous people in our society who will attack someone out of pure meanness, for no reason at all.\nFALSE\nFALSE"
-  },
-  {
-    "objectID": "reports/bdw.html#descriptives-by-wave",
-    "href": "reports/bdw.html#descriptives-by-wave",
-    "title": "Belief in a dangerous world",
-    "section": "Descriptives by wave",
-    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n3.97\n1.16\n0.05\n3.8\n\n\n2\n500\n4.09\n1.18\n0.05\n4.0\n\n\n3\n500\n4.02\n1.18\n0.05\n4.0\n\n\n4\n500\n4.09\n1.26\n0.06\n4.0\n\n\n5\n500\n4.14\n1.22\n0.05\n4.2"
-  },
-  {
-    "objectID": "reports/bdw.html#missing-and-invalid-responses-by-wave",
-    "href": "reports/bdw.html#missing-and-invalid-responses-by-wave",
-    "title": "Belief in a dangerous world",
-    "section": "Missing and invalid responses by wave",
-    "text": "Missing and invalid responses by wave\n\n\n\nRespondents without a wave score, and respondents with at least one missing or invalid item (including recoded non-answer codes). Counts of 1 to 9 are masked.\n\n\nwave\nrespondents\nno_score\nat_least_one_invalid_item\n\n\n\n\n1\n500\n0\n0\n\n\n2\n500\n0\n0\n\n\n3\n500\n0\n0\n\n\n4\n500\n0\n0\n\n\n5\n500\n0\n0"
-  },
-  {
-    "objectID": "reports/bdw.html#psychometrics",
-    "href": "reports/bdw.html#psychometrics",
-    "title": "Belief in a dangerous world",
-    "section": "Psychometrics",
-    "text": "Psychometrics\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Reliability (alpha, omega) and factor structure need item-level data. They will be computed locally and saved as an aggregate-only file that this report reads."
-  },
-  {
-    "objectID": "reports/bdw.html#demographic-and-political-correlates",
-    "href": "reports/bdw.html#demographic-and-political-correlates",
-    "title": "Belief in a dangerous world",
-    "section": "Demographic and political correlates",
-    "text": "Demographic and political correlates\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Pending the item-guide entries for the covariates."
-  },
-  {
-    "objectID": "reports/bdw.html#can-scores-be-compared-across-waves",
-    "href": "reports/bdw.html#can-scores-be-compared-across-waves",
-    "title": "Belief in a dangerous world",
-    "section": "Can scores be compared across waves?",
-    "text": "Can scores be compared across waves?\nFor this construct, the same 5 items with the same wording appear in every wave, and the response scale is 1 to 7 in all of them (one range for all items). Documented non-answer codes: none. The repository’s validation checks (decision log D01 to D16) found no differences in wording, response options or range between waves. Wave scores are therefore on the same metric, and mean-level comparison across waves is defensible. This establishes that the scores are comparable on paper; it does not show measurement invariance, which would need a longitudinal factor model and is listed as a limitation."
-  },
-  {
-    "objectID": "reports/bdw.html#mean-change-and-rank-order-stability",
-    "href": "reports/bdw.html#mean-change-and-rank-order-stability",
-    "title": "Belief in a dangerous world",
-    "section": "Mean change and rank-order stability",
-    "text": "Mean change and rank-order stability\nEstimates use every respondent with a score at both waves (available-case). Intervals are 95% confidence intervals on the paired differences. They are estimates with uncertainty, not significance tests, because many wave pairs are shown. dz is the mean change in units of the SD of the change scores.\n\n\n\nAdjacent waves, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n0.11\n0.04\n0.19\n0.13\n0.70\n\n\nW2 to W3\n500\n-0.07\n-0.15\n0.01\n-0.08\n0.68\n\n\nW3 to W4\n500\n0.07\n-0.01\n0.14\n0.07\n0.72\n\n\nW4 to W5\n500\n0.05\n-0.02\n0.13\n0.06\n0.76\n\n\n\n\n\n\n\n\nLonger intervals, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W3\n500\n0.05\n-0.04\n0.13\n0.05\n0.66\n\n\nW1 to W4\n500\n0.11\n0.03\n0.19\n0.13\n0.73\n\n\nW1 to W5\n500\n0.17\n0.09\n0.25\n0.18\n0.69\n\n\nW2 to W4\n500\n0.00\n-0.08\n0.07\n0.00\n0.71\n\n\nW2 to W5\n500\n0.05\n-0.03\n0.13\n0.06\n0.67\n\n\nW3 to W5\n500\n0.12\n0.04\n0.20\n0.13\n0.69\n\n\n\n\n\n\n\n\n\n\nMean score per wave with 95% CI (y-axis truncated to the range of the intervals)."
-  },
-  {
-    "objectID": "reports/bdw.html#robustness-balanced-panel",
-    "href": "reports/bdw.html#robustness-balanced-panel",
-    "title": "Belief in a dangerous world",
-    "section": "Robustness: balanced panel",
-    "text": "Robustness: balanced panel\nThe balanced panel keeps the 500 of 500 respondents with a score at every wave. The largest absolute difference in mean change between the available-case and balanced-panel estimates is 0.\n\nAdjacent waves, balanced panel.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n0.11\n0.04\n0.19\n0.13\n0.70\n\n\nW2 to W3\n500\n-0.07\n-0.15\n0.01\n-0.08\n0.68\n\n\nW3 to W4\n500\n0.07\n-0.01\n0.14\n0.07\n0.72\n\n\nW4 to W5\n500\n0.05\n-0.02\n0.13\n0.06\n0.76"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "PPBS practical exercise: reproducible reports",
-    "section": "",
-    "text": "This site holds reproducible reports built from a pseudonymised five-wave panel extract. It contains aggregate results only; no respondent-level data are published here."
-  },
-  {
-    "objectID": "index.html#how-i-would-work-at-ppbs",
-    "href": "index.html#how-i-would-work-at-ppbs",
-    "title": "PPBS practical exercise: reproducible reports",
-    "section": "How I would work at PPBS",
-    "text": "How I would work at PPBS\nI am new to political psychology. What I offer is reproducible practice, modelling experience and care with longitudinal data. I propose two concrete improvements: an item specification that drives automatic checks and a reviewer queue, and a restartable targets build. The page also answers the five systems questions and lists what I would decide myself and what I would bring to a research lead.\nRead the full proposal"
-  },
-  {
-    "objectID": "index.html#reports",
-    "href": "index.html#reports",
-    "title": "PPBS practical exercise: reproducible reports",
-    "section": "Reports",
-    "text": "Reports\n\nRight-wing authoritarianism\nSocial dominance orientation\nBelief in a dangerous world\nCompetitive worldview\nSystem justification\nVote intention (in preparation)"
-  },
-  {
-    "objectID": "how_i_would_work.html",
-    "href": "how_i_would_work.html",
-    "title": "How I would work at PPBS",
-    "section": "",
-    "text": "My route to political behavior runs through a question I worked on during the pandemic: how a large societal shock relates to everyday prosocial behavior. In that study (Vieira, Pierzchajlo, et al., 2022, Scientific Reports) we collected four independent online samples a week apart in spring 2020 and analysed them with mixed models and simulation-based power analysis in R. The authors noted that independent samples limited our power to detect change over time. A panel that follows the same people is the design that fixes this, and it is the structure of this exercise.\nPolitical psychology is a new substantive domain for me, so I do not claim subject expertise. What I bring is practice:\n\nReproducibility. I founded a ReproducibiliTea journal club, and I share code and data via GitHub and OSF. The data and code for the study above are public.\nModelling. I work mainly in R, with mixed models, simulation-based power analysis and Bayesian multilevel models (the latter in the supplementary analyses of that study). I have taught statistics at bachelor, master and PhD level.\nComplex data. I have integrated heterogeneous datasets into one analysis-ready structure and used standardised pipelines (BIDS with Docker for fMRI preprocessing)."
-  },
-  {
-    "objectID": "how_i_would_work.html#why-this-work-and-what-i-bring",
-    "href": "how_i_would_work.html#why-this-work-and-what-i-bring",
-    "title": "How I would work at PPBS",
-    "section": "",
-    "text": "My route to political behavior runs through a question I worked on during the pandemic: how a large societal shock relates to everyday prosocial behavior. In that study (Vieira, Pierzchajlo, et al., 2022, Scientific Reports) we collected four independent online samples a week apart in spring 2020 and analysed them with mixed models and simulation-based power analysis in R. The authors noted that independent samples limited our power to detect change over time. A panel that follows the same people is the design that fixes this, and it is the structure of this exercise.\nPolitical psychology is a new substantive domain for me, so I do not claim subject expertise. What I bring is practice:\n\nReproducibility. I founded a ReproducibiliTea journal club, and I share code and data via GitHub and OSF. The data and code for the study above are public.\nModelling. I work mainly in R, with mixed models, simulation-based power analysis and Bayesian multilevel models (the latter in the supplementary analyses of that study). I have taught statistics at bachelor, master and PhD level.\nComplex data. I have integrated heterogeneous datasets into one analysis-ready structure and used standardised pipelines (BIDS with Docker for fMRI preprocessing)."
-  },
-  {
-    "objectID": "how_i_would_work.html#how-i-would-work-across-the-ppbs-systems",
-    "href": "how_i_would_work.html#how-i-would-work-across-the-ppbs-systems",
-    "title": "How I would work at PPBS",
-    "section": "How I would work across the PPBS systems",
-    "text": "How I would work across the PPBS systems\nThese answers are proposals based on the briefing. I have not seen PPBS internal folders, so each one is a question to check in week one.\n\n\n\n\n\n\n\nSystem\nWhat I would do\n\n\n\n\nQualtrics\nKeep the QSF and export under version control. At setup, use one stable item name per question, record reverse keying and non-answer codes in the instrument, and keep the original wording and translation. That would have prevented the ambiguity I hit in this exercise (decision D17 in the decision log).\n\n\nDropbox\nTreat raw files as read-only. Never edit in place: every recode happens in code and writes a new file. The coder’s checks and an independent reviewer’s checks go in separate files, so the reviewer does not just re-run the coder’s script.\n\n\nGoogle Drive\nKeep the master codebook as the human-enriched source. A script compares each codebook row with the machine-readable item specification and lists mismatches (names, wording, scale, keying) without overwriting citations, keywords or other metadata.\n\n\nGitHub\nPublish item-level coding documentation generated from the specification, so one source feeds the docs and the reports. Embargoed records stay in private repositories, and a leak check on the built site runs before every deployment.\n\n\nSlack\nDiscussion only. Any decision that changes data or results is written to the decision log in the repository with a date, the evidence and a status, so it can be found after the thread is gone."
-  },
-  {
-    "objectID": "how_i_would_work.html#two-concrete-improvements",
-    "href": "how_i_would_work.html#two-concrete-improvements",
-    "title": "How I would work at PPBS",
-    "section": "Two concrete improvements",
-    "text": "Two concrete improvements\n\n1. A machine-readable item specification that drives checks and a reviewer queue\nWhat exists here. config/item_spec.csv holds, for each item: construct, wording, valid range, non-answer codes, waves, and the keying the guide states next to the keying actually applied. The checks read this file, so a new construct or wave is a change to a table, not to code.\nWorked example. The guide lists inversely coded items for four of the five constructs. Applying them gave reliability near or below zero with negative item-rest correlations. Without reversal, reliability was acceptable and all inter-item correlations were positive. I concluded the extract is already recoded, applied no reversal, kept the guide’s keying in its own column, and logged the question (D17). Today I found this by running scale checks. The improvement is to make that check standing and automatic: every construct and wave gets item-rest correlations and a keying test, and a failure creates a row in a reviewer queue (item, wave, what was expected, what was observed) for a person to resolve.\nWeek one.\n\nPreserve: the source files, the existing codebook, and the decision log format.\nChange: move the checks to read the specification, and add the queue as a plain file in the repository.\nVerify: the spec-driven checks must reproduce my hand calculation of reliability for one construct and wave, and must flag a deliberately broken test item.\nComplete: run the queue on the approved full dataset and have a research lead clear or reject each row.\n\n\n\n2. A restartable build with dependency tracking\nWhat exists here. One command, source(\"run.R\"), builds the processed scores, runs the tests, renders the site and leak-checks the output. It stops at the first failure. It reruns everything each time.\nProposal. Move to a targets pipeline so a correction to one item propagates only to the reports that depend on it. Slow steps (scoring, model fitting) are separated from presentation, and a rebuild can be spread across workers on a computing cluster for a full dataset or ten countries. renv stays, so package versions remain declared.\nWeek one. Preserve run.R as the entry point and the tests. Change the internals to targets. Verify that the targets build gives byte-identical processed scores to run.R on the exercise data. Complete by documenting how to rerun on the approved full dataset.\nI have not built the targets version yet. It is a plan, not a result."
-  },
-  {
-    "objectID": "how_i_would_work.html#tools-i-could-use-immediately",
-    "href": "how_i_would_work.html#tools-i-could-use-immediately",
-    "title": "How I would work at PPBS",
-    "section": "Tools I could use immediately",
-    "text": "Tools I could use immediately\nrenv (declared versions), targets (dependency tracking), quarto (parameterised reports), psych and lavaan (reliability, omega, factor models), marginaleffects and the easystats packages (parameters, performance, effectsize, report) for consistent summaries, testthat (tests), and brms or Stan for multilevel and Bayesian models. Any package whose output I rely on gets checked against a simple hand calculation first, as I did for reliability here."
-  },
-  {
-    "objectID": "how_i_would_work.html#decisions-i-would-make-myself-and-decisions-for-a-research-lead",
-    "href": "how_i_would_work.html#decisions-i-would-make-myself-and-decisions-for-a-research-lead",
-    "title": "How I would work at PPBS",
-    "section": "Decisions I would make myself, and decisions for a research lead",
-    "text": "Decisions I would make myself, and decisions for a research lead\nMyself: naming, file layout, tests and checks, wording of limitations, how to display uncertainty, and anything covered by an existing written rule.\nFor a research lead:\n\nWhether items that look already recoded become the documented standard (D17).\nHow to treat columns the guide does not explain.\nWhether attrition in the full dataset changes the balanced-panel versus available-case choice.\nAny change to coding that alters a published PPBS result.\nDisclosure thresholds, and what may appear on the public site."
+    "text": "Robustness: balanced panel\nThe balanced panel keeps the 500 of 500 respondents with a score at every wave. The largest absolute difference in mean change between the available-case and balanced-panel estimates is 0.\n\nAdjacent waves, balanced panel.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n-0.04\n-0.10\n0.03\n-0.05\n0.69\n\n\nW2 to W3\n500\n0.01\n-0.06\n0.08\n0.02\n0.67\n\n\nW3 to W4\n500\n0.09\n0.03\n0.16\n0.13\n0.71\n\n\nW4 to W5\n500\n-0.04\n-0.10\n0.02\n-0.06\n0.72"
   },
   {
     "objectID": "reports/cwv.html",
@@ -287,59 +168,234 @@
     "text": "Robustness: balanced panel\nThe balanced panel keeps the 500 of 500 respondents with a score at every wave. The largest absolute difference in mean change between the available-case and balanced-panel estimates is 0.\n\nAdjacent waves, balanced panel.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n0.01\n-0.05\n0.08\n0.02\n0.71\n\n\nW2 to W3\n500\n-0.07\n-0.14\n0.00\n-0.08\n0.66\n\n\nW3 to W4\n500\n0.11\n0.04\n0.18\n0.13\n0.68\n\n\nW4 to W5\n500\n-0.12\n-0.19\n-0.05\n-0.16\n0.68"
   },
   {
-    "objectID": "reports/sdo.html",
-    "href": "reports/sdo.html",
-    "title": "Social dominance orientation",
+    "objectID": "how_i_would_work.html",
+    "href": "how_i_would_work.html",
+    "title": "How I would work at PPBS",
     "section": "",
-    "text": "This report covers Social dominance orientation: 500 respondents linked by exercise_id across 5 waves (1 to 5), measured with 8 items on a 1 to 7 response scale. A wave score is the mean of the valid items, computed only when at least 75% of the items have a valid response. Documented non-answer codes are recoded to missing before scoring. The item table shows the keying listed in the guide (reverse_guide) and the keying applied (reverse); see decision D17 in the repository’s decision log.\n\n\n\nItems, wording and keying. Subscale labels are provisional until checked against a factor model.\n\n\n\n\n\n\n\n\n\nitem\nsubscale\nwording_en\nreverse_guide\nreverse\n\n\n\n\n1\ndominance\nAn ideal society requires some groups to be on top and others to be on the bottom.\nFALSE\nFALSE\n\n\n2\ndominance\nSome groups of people are simply inferior to other groups.\nFALSE\nFALSE\n\n\n3\ndominance\nNo one group should dominate in society.\nTRUE\nFALSE\n\n\n4\ndominance\nGroups at the bottom are just as deserving as groups at the top.\nTRUE\nFALSE\n\n\n5\nantiegalitarianism\nGroup equality should not be our primary goal.\nFALSE\nFALSE\n\n\n6\nantiegalitarianism\nIt is unjust to try to make groups equal.\nFALSE\nFALSE\n\n\n7\nantiegalitarianism\nWe should do what we can to equalize conditions for different groups.\nTRUE\nFALSE\n\n\n8\nantiegalitarianism\nWe should work to give all groups an equal chance to succeed.\nTRUE\nFALSE"
+    "text": "My route to political behavior runs through a question I worked on during the pandemic: how a large societal shock relates to everyday prosocial behavior. In that study (Vieira, Pierzchajlo, et al., 2022, Scientific Reports) we collected four independent online samples a week apart in spring 2020 and analysed them with mixed models and simulation-based power analysis in R. The authors noted that independent samples limited our power to detect change over time. A panel that follows the same people is the design that fixes this, and it is the structure of this exercise.\nPolitical psychology is a new substantive domain for me, so I do not claim subject expertise. What I bring is practice:\n\nReproducibility. I founded a ReproducibiliTea journal club, and I share code and data via GitHub and OSF. The data and code for the study above are public.\nModelling. I work mainly in R, with mixed models, simulation-based power analysis and Bayesian multilevel models (the latter in the supplementary analyses of that study). I have taught statistics at bachelor, master and PhD level.\nComplex data. I have integrated heterogeneous datasets into one analysis-ready structure and used standardised pipelines (BIDS with Docker for fMRI preprocessing)."
   },
   {
-    "objectID": "reports/sdo.html#descriptives-by-wave",
-    "href": "reports/sdo.html#descriptives-by-wave",
-    "title": "Social dominance orientation",
+    "objectID": "how_i_would_work.html#why-this-work-and-what-i-bring",
+    "href": "how_i_would_work.html#why-this-work-and-what-i-bring",
+    "title": "How I would work at PPBS",
+    "section": "",
+    "text": "My route to political behavior runs through a question I worked on during the pandemic: how a large societal shock relates to everyday prosocial behavior. In that study (Vieira, Pierzchajlo, et al., 2022, Scientific Reports) we collected four independent online samples a week apart in spring 2020 and analysed them with mixed models and simulation-based power analysis in R. The authors noted that independent samples limited our power to detect change over time. A panel that follows the same people is the design that fixes this, and it is the structure of this exercise.\nPolitical psychology is a new substantive domain for me, so I do not claim subject expertise. What I bring is practice:\n\nReproducibility. I founded a ReproducibiliTea journal club, and I share code and data via GitHub and OSF. The data and code for the study above are public.\nModelling. I work mainly in R, with mixed models, simulation-based power analysis and Bayesian multilevel models (the latter in the supplementary analyses of that study). I have taught statistics at bachelor, master and PhD level.\nComplex data. I have integrated heterogeneous datasets into one analysis-ready structure and used standardised pipelines (BIDS with Docker for fMRI preprocessing)."
+  },
+  {
+    "objectID": "how_i_would_work.html#how-i-would-work-across-the-ppbs-systems",
+    "href": "how_i_would_work.html#how-i-would-work-across-the-ppbs-systems",
+    "title": "How I would work at PPBS",
+    "section": "How I would work across the PPBS systems",
+    "text": "How I would work across the PPBS systems\nThese answers are proposals based on the briefing. I have not seen PPBS internal folders, so each one is a question to check in week one.\n\n\n\n\n\n\n\nSystem\nWhat I would do\n\n\n\n\nQualtrics\nKeep the QSF and export under version control. At setup, use one stable item name per question, record reverse keying and non-answer codes in the instrument, and keep the original wording and translation. That would have prevented the ambiguity I hit in this exercise (decision D17 in the decision log).\n\n\nDropbox\nTreat raw files as read-only. Never edit in place: every recode happens in code and writes a new file. The coder’s checks and an independent reviewer’s checks go in separate files, so the reviewer does not just re-run the coder’s script.\n\n\nGoogle Drive\nKeep the master codebook as the human-enriched source. A script compares each codebook row with the machine-readable item specification and lists mismatches (names, wording, scale, keying) without overwriting citations, keywords or other metadata.\n\n\nGitHub\nPublish item-level coding documentation generated from the specification, so one source feeds the docs and the reports. Embargoed records stay in private repositories, and a leak check on the built site runs before every deployment.\n\n\nSlack\nDiscussion only. Any decision that changes data or results is written to the decision log in the repository with a date, the evidence and a status, so it can be found after the thread is gone."
+  },
+  {
+    "objectID": "how_i_would_work.html#two-concrete-improvements",
+    "href": "how_i_would_work.html#two-concrete-improvements",
+    "title": "How I would work at PPBS",
+    "section": "Two concrete improvements",
+    "text": "Two concrete improvements\n\n1. A machine-readable item specification that drives checks and a reviewer queue\nWhat exists here. config/item_spec.csv holds, for each item: construct, wording, valid range, non-answer codes, waves, and the keying the guide states next to the keying actually applied. The checks read this file, so a new construct or wave is a change to a table, not to code.\nWorked example. The guide lists inversely coded items for four of the five constructs. Applying them gave reliability near or below zero with negative item-rest correlations. Without reversal, reliability was acceptable and all inter-item correlations were positive. I concluded the extract is already recoded, applied no reversal, kept the guide’s keying in its own column, and logged the question (D17). Today I found this by running scale checks. The improvement is to make that check standing and automatic: every construct and wave gets item-rest correlations and a keying test, and a failure creates a row in a reviewer queue (item, wave, what was expected, what was observed) for a person to resolve.\nWeek one.\n\nPreserve: the source files, the existing codebook, and the decision log format.\nChange: move the checks to read the specification, and add the queue as a plain file in the repository.\nVerify: the spec-driven checks must reproduce my hand calculation of reliability for one construct and wave, and must flag a deliberately broken test item.\nComplete: run the queue on the approved full dataset and have a research lead clear or reject each row.\n\n\n\n2. A restartable build with dependency tracking\nWhat exists here. One command, source(\"run.R\"), builds the processed scores, runs the tests, renders the site and leak-checks the output. It stops at the first failure. It reruns everything each time.\nProposal. Move to a targets pipeline so a correction to one item propagates only to the reports that depend on it. Slow steps (scoring, model fitting) are separated from presentation, and a rebuild can be spread across workers on a computing cluster for a full dataset or ten countries. renv stays, so package versions remain declared.\nWeek one. Preserve run.R as the entry point and the tests. Change the internals to targets. Verify that the targets build gives byte-identical processed scores to run.R on the exercise data. Complete by documenting how to rerun on the approved full dataset.\nI have not built the targets version yet. It is a plan, not a result."
+  },
+  {
+    "objectID": "how_i_would_work.html#tools-i-could-use-immediately",
+    "href": "how_i_would_work.html#tools-i-could-use-immediately",
+    "title": "How I would work at PPBS",
+    "section": "Tools I could use immediately",
+    "text": "Tools I could use immediately\nrenv (declared versions), targets (dependency tracking), quarto (parameterised reports), psych and lavaan (reliability, omega, factor models), marginaleffects and the easystats packages (parameters, performance, effectsize, report) for consistent summaries, testthat (tests), and brms or Stan for multilevel and Bayesian models. Any package whose output I rely on gets checked against a simple hand calculation first, as I did for reliability here."
+  },
+  {
+    "objectID": "how_i_would_work.html#decisions-i-would-make-myself-and-decisions-for-a-research-lead",
+    "href": "how_i_would_work.html#decisions-i-would-make-myself-and-decisions-for-a-research-lead",
+    "title": "How I would work at PPBS",
+    "section": "Decisions I would make myself, and decisions for a research lead",
+    "text": "Decisions I would make myself, and decisions for a research lead\nMyself: naming, file layout, tests and checks, wording of limitations, how to display uncertainty, and anything covered by an existing written rule.\nFor a research lead:\n\nWhether items that look already recoded become the documented standard (D17).\nHow to treat columns the guide does not explain.\nWhether attrition in the full dataset changes the balanced-panel versus available-case choice.\nAny change to coding that alters a published PPBS result.\nDisclosure thresholds, and what may appear on the public site."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PPBS practical exercise: reproducible reports",
+    "section": "",
+    "text": "This site holds reproducible reports built from a pseudonymised five-wave panel extract. It contains aggregate results only; no respondent-level data are published here."
+  },
+  {
+    "objectID": "index.html#how-i-would-work-at-ppbs",
+    "href": "index.html#how-i-would-work-at-ppbs",
+    "title": "PPBS practical exercise: reproducible reports",
+    "section": "How I would work at PPBS",
+    "text": "How I would work at PPBS\nI am new to political psychology. What I offer is reproducible practice, modelling experience and care with longitudinal data. I propose two concrete improvements: an item specification that drives automatic checks and a reviewer queue, and a restartable targets build. The page also answers the five systems questions and lists what I would decide myself and what I would bring to a research lead.\nRead the full proposal"
+  },
+  {
+    "objectID": "index.html#reports",
+    "href": "index.html#reports",
+    "title": "PPBS practical exercise: reproducible reports",
+    "section": "Reports",
+    "text": "Reports\n\nRight-wing authoritarianism\nSocial dominance orientation\nBelief in a dangerous world\nCompetitive worldview\nSystem justification\nVote intention"
+  },
+  {
+    "objectID": "reports/bdw.html",
+    "href": "reports/bdw.html",
+    "title": "Belief in a dangerous world",
+    "section": "",
+    "text": "This report covers Belief in a dangerous world: 500 respondents linked by exercise_id across 5 waves (1 to 5), measured with 5 items on a 1 to 7 response scale. A wave score is the mean of the valid items, computed only when at least 75% of the items have a valid response. Documented non-answer codes are recoded to missing before scoring. The item table shows the keying listed in the guide (reverse_guide) and the keying applied (reverse); see decision D17 in the repository’s decision log.\n\n\n\nItems, wording and keying. Subscale labels are provisional until checked against a factor model.\n\n\n\n\n\n\n\n\n\nitem\nsubscale\nwording_en\nreverse_guide\nreverse\n\n\n\n\n1\nnone\nAny day now chaos and anarchy could erupt around us. All the signs are pointing to it.\nFALSE\nFALSE\n\n\n2\nnone\nMy knowledge and experience tells me that the social world we live in is basically a safe, stable and secure place in which most people are fundamentally good.\nTRUE\nFALSE\n\n\n3\nnone\nAlthough it may appear that things are constantly getting more dangerous and chaotic, it really isn’t so.\nTRUE\nFALSE\n\n\n4\nnone\nEvery era has its problems, and a person’s chances of living a safe, untroubled life are better today than ever before.\nTRUE\nFALSE\n\n\n5\nnone\nThere are many dangerous people in our society who will attack someone out of pure meanness, for no reason at all.\nFALSE\nFALSE"
+  },
+  {
+    "objectID": "reports/bdw.html#descriptives-by-wave",
+    "href": "reports/bdw.html#descriptives-by-wave",
+    "title": "Belief in a dangerous world",
     "section": "Descriptives by wave",
-    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n3.16\n0.94\n0.04\n3.25\n\n\n2\n500\n3.12\n1.01\n0.05\n3.25\n\n\n3\n500\n3.13\n0.99\n0.04\n3.25\n\n\n4\n500\n3.22\n0.98\n0.04\n3.38\n\n\n5\n500\n3.18\n1.02\n0.05\n3.25"
+    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n3.97\n1.16\n0.05\n3.8\n\n\n2\n500\n4.09\n1.18\n0.05\n4.0\n\n\n3\n500\n4.02\n1.18\n0.05\n4.0\n\n\n4\n500\n4.09\n1.26\n0.06\n4.0\n\n\n5\n500\n4.14\n1.22\n0.05\n4.2"
   },
   {
-    "objectID": "reports/sdo.html#missing-and-invalid-responses-by-wave",
-    "href": "reports/sdo.html#missing-and-invalid-responses-by-wave",
-    "title": "Social dominance orientation",
+    "objectID": "reports/bdw.html#missing-and-invalid-responses-by-wave",
+    "href": "reports/bdw.html#missing-and-invalid-responses-by-wave",
+    "title": "Belief in a dangerous world",
     "section": "Missing and invalid responses by wave",
     "text": "Missing and invalid responses by wave\n\n\n\nRespondents without a wave score, and respondents with at least one missing or invalid item (including recoded non-answer codes). Counts of 1 to 9 are masked.\n\n\nwave\nrespondents\nno_score\nat_least_one_invalid_item\n\n\n\n\n1\n500\n0\n0\n\n\n2\n500\n0\n0\n\n\n3\n500\n0\n0\n\n\n4\n500\n0\n0\n\n\n5\n500\n0\n0"
   },
   {
-    "objectID": "reports/sdo.html#psychometrics",
-    "href": "reports/sdo.html#psychometrics",
-    "title": "Social dominance orientation",
+    "objectID": "reports/bdw.html#psychometrics",
+    "href": "reports/bdw.html#psychometrics",
+    "title": "Belief in a dangerous world",
     "section": "Psychometrics",
     "text": "Psychometrics\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Reliability (alpha, omega) and factor structure need item-level data. They will be computed locally and saved as an aggregate-only file that this report reads."
   },
   {
-    "objectID": "reports/sdo.html#demographic-and-political-correlates",
-    "href": "reports/sdo.html#demographic-and-political-correlates",
-    "title": "Social dominance orientation",
+    "objectID": "reports/bdw.html#demographic-and-political-correlates",
+    "href": "reports/bdw.html#demographic-and-political-correlates",
+    "title": "Belief in a dangerous world",
     "section": "Demographic and political correlates",
     "text": "Demographic and political correlates\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Pending the item-guide entries for the covariates."
   },
   {
-    "objectID": "reports/sdo.html#can-scores-be-compared-across-waves",
-    "href": "reports/sdo.html#can-scores-be-compared-across-waves",
-    "title": "Social dominance orientation",
+    "objectID": "reports/bdw.html#can-scores-be-compared-across-waves",
+    "href": "reports/bdw.html#can-scores-be-compared-across-waves",
+    "title": "Belief in a dangerous world",
+    "section": "Can scores be compared across waves?",
+    "text": "Can scores be compared across waves?\nFor this construct, the same 5 items with the same wording appear in every wave, and the response scale is 1 to 7 in all of them (one range for all items). Documented non-answer codes: none. The repository’s validation checks (decision log D01 to D16) found no differences in wording, response options or range between waves. Wave scores are therefore on the same metric, and mean-level comparison across waves is defensible. This establishes that the scores are comparable on paper; it does not show measurement invariance, which would need a longitudinal factor model and is listed as a limitation."
+  },
+  {
+    "objectID": "reports/bdw.html#mean-change-and-rank-order-stability",
+    "href": "reports/bdw.html#mean-change-and-rank-order-stability",
+    "title": "Belief in a dangerous world",
+    "section": "Mean change and rank-order stability",
+    "text": "Mean change and rank-order stability\nEstimates use every respondent with a score at both waves (available-case). Intervals are 95% confidence intervals on the paired differences. They are estimates with uncertainty, not significance tests, because many wave pairs are shown. dz is the mean change in units of the SD of the change scores.\n\n\n\nAdjacent waves, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n0.11\n0.04\n0.19\n0.13\n0.70\n\n\nW2 to W3\n500\n-0.07\n-0.15\n0.01\n-0.08\n0.68\n\n\nW3 to W4\n500\n0.07\n-0.01\n0.14\n0.07\n0.72\n\n\nW4 to W5\n500\n0.05\n-0.02\n0.13\n0.06\n0.76\n\n\n\n\n\n\n\n\nLonger intervals, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W3\n500\n0.05\n-0.04\n0.13\n0.05\n0.66\n\n\nW1 to W4\n500\n0.11\n0.03\n0.19\n0.13\n0.73\n\n\nW1 to W5\n500\n0.17\n0.09\n0.25\n0.18\n0.69\n\n\nW2 to W4\n500\n0.00\n-0.08\n0.07\n0.00\n0.71\n\n\nW2 to W5\n500\n0.05\n-0.03\n0.13\n0.06\n0.67\n\n\nW3 to W5\n500\n0.12\n0.04\n0.20\n0.13\n0.69\n\n\n\n\n\n\n\n\n\n\nMean score per wave with 95% CI (y-axis truncated to the range of the intervals)."
+  },
+  {
+    "objectID": "reports/bdw.html#robustness-balanced-panel",
+    "href": "reports/bdw.html#robustness-balanced-panel",
+    "title": "Belief in a dangerous world",
+    "section": "Robustness: balanced panel",
+    "text": "Robustness: balanced panel\nThe balanced panel keeps the 500 of 500 respondents with a score at every wave. The largest absolute difference in mean change between the available-case and balanced-panel estimates is 0.\n\nAdjacent waves, balanced panel.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n0.11\n0.04\n0.19\n0.13\n0.70\n\n\nW2 to W3\n500\n-0.07\n-0.15\n0.01\n-0.08\n0.68\n\n\nW3 to W4\n500\n0.07\n-0.01\n0.14\n0.07\n0.72\n\n\nW4 to W5\n500\n0.05\n-0.02\n0.13\n0.06\n0.76"
+  },
+  {
+    "objectID": "reports/rwa.html",
+    "href": "reports/rwa.html",
+    "title": "Right-wing authoritarianism",
+    "section": "",
+    "text": "This report covers Right-wing authoritarianism: 500 respondents linked by exercise_id across 5 waves (1 to 5), measured with 9 items on a 1 to 7 response scale. A wave score is the mean of the valid items, computed only when at least 75% of the items have a valid response. Documented non-answer codes are recoded to missing before scoring. The item table shows the keying listed in the guide (reverse_guide) and the keying applied (reverse); see decision D17 in the repository’s decision log.\n\n\n\nItems, wording and keying. Subscale labels are provisional until checked against a factor model.\n\n\n\n\n\n\n\n\n\nitem\nsubscale\nwording_en\nreverse_guide\nreverse\n\n\n\n\n1\naggression\nWe should take strong action against misfits and slackers in society.\nFALSE\nFALSE\n\n\n2\naggression\nTroublemakers should be made to feel that they are not welcome in society.\nFALSE\nFALSE\n\n\n3\naggression\nRules in society should be enforced without pity.\nFALSE\nFALSE\n\n\n4\nsubmission\nWe need strong leaders so that we can live safely in society.\nFALSE\nFALSE\n\n\n5\nsubmission\nPeople should leave important decisions in society to their leaders.\nFALSE\nFALSE\n\n\n6\nsubmission\nWe should be grateful for leaders telling us exactly what to do.\nFALSE\nFALSE\n\n\n7\nconventionalism\nTraditions should definitely be carried on and kept alive.\nFALSE\nFALSE\n\n\n8\nconventionalism\nWell-established behavior should not be questioned.\nFALSE\nFALSE\n\n\n9\nconventionalism\nIt’s always best to do things in the usual way.\nFALSE\nFALSE"
+  },
+  {
+    "objectID": "reports/rwa.html#descriptives-by-wave",
+    "href": "reports/rwa.html#descriptives-by-wave",
+    "title": "Right-wing authoritarianism",
+    "section": "Descriptives by wave",
+    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n4.08\n1.09\n0.05\n4.11\n\n\n2\n500\n4.02\n1.10\n0.05\n4.11\n\n\n3\n500\n4.09\n1.16\n0.05\n4.22\n\n\n4\n500\n4.08\n1.17\n0.05\n4.22\n\n\n5\n500\n4.14\n1.11\n0.05\n4.22"
+  },
+  {
+    "objectID": "reports/rwa.html#missing-and-invalid-responses-by-wave",
+    "href": "reports/rwa.html#missing-and-invalid-responses-by-wave",
+    "title": "Right-wing authoritarianism",
+    "section": "Missing and invalid responses by wave",
+    "text": "Missing and invalid responses by wave\n\n\n\nRespondents without a wave score, and respondents with at least one missing or invalid item (including recoded non-answer codes). Counts of 1 to 9 are masked.\n\n\nwave\nrespondents\nno_score\nat_least_one_invalid_item\n\n\n\n\n1\n500\n0\n0\n\n\n2\n500\n0\n0\n\n\n3\n500\n0\n0\n\n\n4\n500\n0\n0\n\n\n5\n500\n0\n0"
+  },
+  {
+    "objectID": "reports/rwa.html#psychometrics",
+    "href": "reports/rwa.html#psychometrics",
+    "title": "Right-wing authoritarianism",
+    "section": "Psychometrics",
+    "text": "Psychometrics\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Reliability (alpha, omega) and factor structure need item-level data. They will be computed locally and saved as an aggregate-only file that this report reads."
+  },
+  {
+    "objectID": "reports/rwa.html#demographic-and-political-correlates",
+    "href": "reports/rwa.html#demographic-and-political-correlates",
+    "title": "Right-wing authoritarianism",
+    "section": "Demographic and political correlates",
+    "text": "Demographic and political correlates\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Pending the item-guide entries for the covariates."
+  },
+  {
+    "objectID": "reports/rwa.html#can-scores-be-compared-across-waves",
+    "href": "reports/rwa.html#can-scores-be-compared-across-waves",
+    "title": "Right-wing authoritarianism",
+    "section": "Can scores be compared across waves?",
+    "text": "Can scores be compared across waves?\nFor this construct, the same 9 items with the same wording appear in every wave, and the response scale is 1 to 7 in all of them (one range for all items). Documented non-answer codes: none. The repository’s validation checks (decision log D01 to D16) found no differences in wording, response options or range between waves. Wave scores are therefore on the same metric, and mean-level comparison across waves is defensible. This establishes that the scores are comparable on paper; it does not show measurement invariance, which would need a longitudinal factor model and is listed as a limitation."
+  },
+  {
+    "objectID": "reports/rwa.html#mean-change-and-rank-order-stability",
+    "href": "reports/rwa.html#mean-change-and-rank-order-stability",
+    "title": "Right-wing authoritarianism",
+    "section": "Mean change and rank-order stability",
+    "text": "Mean change and rank-order stability\nEstimates use every respondent with a score at both waves (available-case). Intervals are 95% confidence intervals on the paired differences. They are estimates with uncertainty, not significance tests, because many wave pairs are shown. dz is the mean change in units of the SD of the change scores.\n\n\n\nAdjacent waves, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n-0.05\n-0.11\n0.01\n-0.07\n0.79\n\n\nW2 to W3\n500\n0.06\n-0.01\n0.13\n0.08\n0.75\n\n\nW3 to W4\n500\n-0.01\n-0.07\n0.05\n-0.01\n0.79\n\n\nW4 to W5\n500\n0.06\n0.00\n0.12\n0.09\n0.78\n\n\n\n\n\n\n\n\nLonger intervals, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W3\n500\n0.01\n-0.05\n0.07\n0.01\n0.78\n\n\nW1 to W4\n500\n0.00\n-0.06\n0.07\n0.00\n0.77\n\n\nW1 to W5\n500\n0.06\n0.00\n0.12\n0.09\n0.78\n\n\nW2 to W4\n500\n0.05\n-0.01\n0.12\n0.07\n0.76\n\n\nW2 to W5\n500\n0.11\n0.05\n0.18\n0.16\n0.77\n\n\nW3 to W5\n500\n0.05\n-0.02\n0.12\n0.07\n0.76\n\n\n\n\n\n\n\n\n\n\nMean score per wave with 95% CI (y-axis truncated to the range of the intervals)."
+  },
+  {
+    "objectID": "reports/rwa.html#robustness-balanced-panel",
+    "href": "reports/rwa.html#robustness-balanced-panel",
+    "title": "Right-wing authoritarianism",
+    "section": "Robustness: balanced panel",
+    "text": "Robustness: balanced panel\nThe balanced panel keeps the 500 of 500 respondents with a score at every wave. The largest absolute difference in mean change between the available-case and balanced-panel estimates is 0.\n\nAdjacent waves, balanced panel.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n-0.05\n-0.11\n0.01\n-0.07\n0.79\n\n\nW2 to W3\n500\n0.06\n-0.01\n0.13\n0.08\n0.75\n\n\nW3 to W4\n500\n-0.01\n-0.07\n0.05\n-0.01\n0.79\n\n\nW4 to W5\n500\n0.06\n0.00\n0.12\n0.09\n0.78"
+  },
+  {
+    "objectID": "reports/sj.html",
+    "href": "reports/sj.html",
+    "title": "System justification",
+    "section": "",
+    "text": "This report covers System justification: 500 respondents linked by exercise_id across 5 waves (1 to 5), measured with 8 items on a 1 to 7 response scale. A wave score is the mean of the valid items, computed only when at least 75% of the items have a valid response. Documented non-answer codes are recoded to missing before scoring. The item table shows the keying listed in the guide (reverse_guide) and the keying applied (reverse); see decision D17 in the repository’s decision log.\n\n\n\nItems, wording and keying. Subscale labels are provisional until checked against a factor model.\n\n\n\n\n\n\n\n\n\nitem\nsubscale\nwording_en\nreverse_guide\nreverse\n\n\n\n\n1\nnone\nIn general, you find society to be fair.\nFALSE\nFALSE\n\n\n2\nnone\nIn general, the German political system operates as it should.\nFALSE\nFALSE\n\n\n3\nnone\nGerman society needs to be radically restructured.\nTRUE\nFALSE\n\n\n4\nnone\nGermany is the best country in the world to live in.\nFALSE\nFALSE\n\n\n5\nnone\nMost policies serve the greater good.\nFALSE\nFALSE\n\n\n6\nnone\nEveryone has a fair shot at wealth and happiness.\nFALSE\nFALSE\n\n\n7\nnone\nOur society is getting worse every year.\nTRUE\nFALSE\n\n\n8\nnone\nSociety is set up so that people usually get what they deserve.\nFALSE\nFALSE"
+  },
+  {
+    "objectID": "reports/sj.html#descriptives-by-wave",
+    "href": "reports/sj.html#descriptives-by-wave",
+    "title": "System justification",
+    "section": "Descriptives by wave",
+    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n3.87\n1.14\n0.05\n4.00\n\n\n2\n500\n3.68\n1.20\n0.05\n3.75\n\n\n3\n500\n3.84\n1.18\n0.05\n3.88\n\n\n4\n500\n3.79\n1.17\n0.05\n3.88\n\n\n5\n500\n3.79\n1.20\n0.05\n3.88"
+  },
+  {
+    "objectID": "reports/sj.html#missing-and-invalid-responses-by-wave",
+    "href": "reports/sj.html#missing-and-invalid-responses-by-wave",
+    "title": "System justification",
+    "section": "Missing and invalid responses by wave",
+    "text": "Missing and invalid responses by wave\n\n\n\nRespondents without a wave score, and respondents with at least one missing or invalid item (including recoded non-answer codes). Counts of 1 to 9 are masked.\n\n\nwave\nrespondents\nno_score\nat_least_one_invalid_item\n\n\n\n\n1\n500\n0\n0\n\n\n2\n500\n0\n0\n\n\n3\n500\n0\n0\n\n\n4\n500\n0\n0\n\n\n5\n500\n0\n0"
+  },
+  {
+    "objectID": "reports/sj.html#psychometrics",
+    "href": "reports/sj.html#psychometrics",
+    "title": "System justification",
+    "section": "Psychometrics",
+    "text": "Psychometrics\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Reliability (alpha, omega) and factor structure need item-level data. They will be computed locally and saved as an aggregate-only file that this report reads."
+  },
+  {
+    "objectID": "reports/sj.html#demographic-and-political-correlates",
+    "href": "reports/sj.html#demographic-and-political-correlates",
+    "title": "System justification",
+    "section": "Demographic and political correlates",
+    "text": "Demographic and political correlates\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Pending the item-guide entries for the covariates."
+  },
+  {
+    "objectID": "reports/sj.html#can-scores-be-compared-across-waves",
+    "href": "reports/sj.html#can-scores-be-compared-across-waves",
+    "title": "System justification",
     "section": "Can scores be compared across waves?",
     "text": "Can scores be compared across waves?\nFor this construct, the same 8 items with the same wording appear in every wave, and the response scale is 1 to 7 in all of them (one range for all items). Documented non-answer codes: none. The repository’s validation checks (decision log D01 to D16) found no differences in wording, response options or range between waves. Wave scores are therefore on the same metric, and mean-level comparison across waves is defensible. This establishes that the scores are comparable on paper; it does not show measurement invariance, which would need a longitudinal factor model and is listed as a limitation."
   },
   {
-    "objectID": "reports/sdo.html#mean-change-and-rank-order-stability",
-    "href": "reports/sdo.html#mean-change-and-rank-order-stability",
-    "title": "Social dominance orientation",
+    "objectID": "reports/sj.html#mean-change-and-rank-order-stability",
+    "href": "reports/sj.html#mean-change-and-rank-order-stability",
+    "title": "System justification",
     "section": "Mean change and rank-order stability",
-    "text": "Mean change and rank-order stability\nEstimates use every respondent with a score at both waves (available-case). Intervals are 95% confidence intervals on the paired differences. They are estimates with uncertainty, not significance tests, because many wave pairs are shown. dz is the mean change in units of the SD of the change scores.\n\n\n\nAdjacent waves, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n-0.04\n-0.10\n0.03\n-0.05\n0.69\n\n\nW2 to W3\n500\n0.01\n-0.06\n0.08\n0.02\n0.67\n\n\nW3 to W4\n500\n0.09\n0.03\n0.16\n0.13\n0.71\n\n\nW4 to W5\n500\n-0.04\n-0.10\n0.02\n-0.06\n0.72\n\n\n\n\n\n\n\n\nLonger intervals, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W3\n500\n-0.03\n-0.09\n0.04\n-0.04\n0.68\n\n\nW1 to W4\n500\n0.06\n0.00\n0.13\n0.08\n0.65\n\n\nW1 to W5\n500\n0.02\n-0.04\n0.09\n0.03\n0.72\n\n\nW2 to W4\n500\n0.10\n0.04\n0.17\n0.13\n0.65\n\n\nW2 to W5\n500\n0.06\n-0.01\n0.13\n0.08\n0.65\n\n\nW3 to W5\n500\n0.05\n-0.02\n0.11\n0.07\n0.71\n\n\n\n\n\n\n\n\n\n\nMean score per wave with 95% CI (y-axis truncated to the range of the intervals)."
+    "text": "Mean change and rank-order stability\nEstimates use every respondent with a score at both waves (available-case). Intervals are 95% confidence intervals on the paired differences. They are estimates with uncertainty, not significance tests, because many wave pairs are shown. dz is the mean change in units of the SD of the change scores.\n\n\n\nAdjacent waves, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n-0.18\n-0.25\n-0.12\n-0.23\n0.77\n\n\nW2 to W3\n500\n0.16\n0.09\n0.23\n0.21\n0.80\n\n\nW3 to W4\n500\n-0.05\n-0.12\n0.01\n-0.07\n0.79\n\n\nW4 to W5\n500\n0.00\n-0.06\n0.06\n0.00\n0.84\n\n\n\n\n\n\n\n\nLonger intervals, available-case.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W3\n500\n-0.02\n-0.09\n0.04\n-0.03\n0.77\n\n\nW1 to W4\n500\n-0.08\n-0.14\n-0.01\n-0.10\n0.76\n\n\nW1 to W5\n500\n-0.07\n-0.14\n-0.01\n-0.10\n0.76\n\n\nW2 to W4\n500\n0.11\n0.04\n0.18\n0.14\n0.79\n\n\nW2 to W5\n500\n0.11\n0.04\n0.18\n0.14\n0.79\n\n\nW3 to W5\n500\n-0.05\n-0.11\n0.01\n-0.07\n0.80\n\n\n\n\n\n\n\n\n\n\nMean score per wave with 95% CI (y-axis truncated to the range of the intervals)."
   },
   {
-    "objectID": "reports/sdo.html#robustness-balanced-panel",
-    "href": "reports/sdo.html#robustness-balanced-panel",
-    "title": "Social dominance orientation",
+    "objectID": "reports/sj.html#robustness-balanced-panel",
+    "href": "reports/sj.html#robustness-balanced-panel",
+    "title": "System justification",
     "section": "Robustness: balanced panel",
-    "text": "Robustness: balanced panel\nThe balanced panel keeps the 500 of 500 respondents with a score at every wave. The largest absolute difference in mean change between the available-case and balanced-panel estimates is 0.\n\nAdjacent waves, balanced panel.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n-0.04\n-0.10\n0.03\n-0.05\n0.69\n\n\nW2 to W3\n500\n0.01\n-0.06\n0.08\n0.02\n0.67\n\n\nW3 to W4\n500\n0.09\n0.03\n0.16\n0.13\n0.71\n\n\nW4 to W5\n500\n-0.04\n-0.10\n0.02\n-0.06\n0.72"
+    "text": "Robustness: balanced panel\nThe balanced panel keeps the 500 of 500 respondents with a score at every wave. The largest absolute difference in mean change between the available-case and balanced-panel estimates is 0.\n\nAdjacent waves, balanced panel.\n\n\nInterval\nn\nMean change\nCI low\nCI high\ndz\nSpearman rho\n\n\n\n\nW1 to W2\n500\n-0.18\n-0.25\n-0.12\n-0.23\n0.77\n\n\nW2 to W3\n500\n0.16\n0.09\n0.23\n0.21\n0.80\n\n\nW3 to W4\n500\n-0.05\n-0.12\n0.01\n-0.07\n0.79\n\n\nW4 to W5\n500\n0.00\n-0.06\n0.06\n0.00\n0.84"
   }
 ]
