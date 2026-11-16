@@ -123,10 +123,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#how-i-would-work-across-the-ppbs-systems" id="toc-how-i-would-work-across-the-ppbs-systems" class="nav-link" data-scroll-target="#how-i-would-work-across-the-ppbs-systems">How I would work across the PPBS systems</a></li>
   <li><a href="#two-concrete-improvements" id="toc-two-concrete-improvements" class="nav-link" data-scroll-target="#two-concrete-improvements">Two concrete improvements</a>
   <ul class="collapse">
-  <li><a href="#a-machine-readable-item-specification-that-drives-checks-and-a-reviewer-queue" id="toc-a-machine-readable-item-specification-that-drives-checks-and-a-reviewer-queue" class="nav-link" data-scroll-target="#a-machine-readable-item-specification-that-drives-checks-and-a-reviewer-queue">1. A machine-readable item specification that drives checks and a reviewer queue</a></li>
-  <li><a href="#a-restartable-build-with-dependency-tracking" id="toc-a-restartable-build-with-dependency-tracking" class="nav-link" data-scroll-target="#a-restartable-build-with-dependency-tracking">2. A restartable build with dependency tracking</a></li>
+  <li><a href="#an-item-specification-to-support-automated-checks-and-review" id="toc-an-item-specification-to-support-automated-checks-and-review" class="nav-link" data-scroll-target="#an-item-specification-to-support-automated-checks-and-review">1. An item specification to support automated checks and review</a></li>
+  <li><a href="#making-the-build-more-efficient-and-easier-to-restart" id="toc-making-the-build-more-efficient-and-easier-to-restart" class="nav-link" data-scroll-target="#making-the-build-more-efficient-and-easier-to-restart">2. Making the build more efficient and easier to restart</a></li>
   </ul></li>
-  <li><a href="#tools-i-could-use-immediately" id="toc-tools-i-could-use-immediately" class="nav-link" data-scroll-target="#tools-i-could-use-immediately">Tools I could use immediately</a></li>
+  <li><a href="#tools-i-could-use" id="toc-tools-i-could-use" class="nav-link" data-scroll-target="#tools-i-could-use">Tools I could use</a></li>
   <li><a href="#decisions-i-would-make-myself-and-decisions-for-a-research-lead" id="toc-decisions-i-would-make-myself-and-decisions-for-a-research-lead" class="nav-link" data-scroll-target="#decisions-i-would-make-myself-and-decisions-for-a-research-lead">Decisions I would make myself, and decisions for a research lead</a></li>
   </ul>
 </nav>
@@ -155,17 +155,16 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="why-this-work-and-what-i-bring" class="level2">
 <h2 class="anchored" data-anchor-id="why-this-work-and-what-i-bring">Why this work, and what I bring</h2>
-<p>My route to political behavior runs through a question I worked on during the pandemic: how a large societal shock relates to everyday prosocial behavior. In that study (Vieira, Pierzchajlo, et al., 2022, Scientific Reports) we collected four independent online samples a week apart in spring 2020 and analysed them with mixed models and simulation-based power analysis in R. The authors noted that independent samples limited our power to detect change over time. A panel that follows the same people is the design that fixes this, and it is the structure of this exercise.</p>
-<p>Political psychology is a new substantive domain for me, so I do not claim subject expertise. What I bring is practice:</p>
+<p>My interest in political behaviour grew out of a question I worked on during the pandemic: how does a large societal shock relate to everyday prosocial behaviour? In that study (Vieira, Pierzchajlo, et al., 2022, Scientific Reports), we collected four independent online samples, one week apart, in spring 2020. We analysed the data using mixed models and simulation-based power analysis in R. One limitation we noted was that using independent samples made it difficult to detect changes within individuals over time. A panel following the same participants would help address this limitation, which is one reason this exercise interests me.</p>
+<p>My background is not specifically in political psychology, although political behaviour has been an area of interest throughout my PhD. I would bring experience in quantitative research, statistical modelling and reproducible research practices, as well as experience working with complex datasets.</p>
 <ul>
-<li><strong>Reproducibility.</strong> I founded a ReproducibiliTea journal club, and I share code and data via GitHub and OSF. The data and code for the study above are public.</li>
-<li><strong>Modelling.</strong> I work mainly in R, with mixed models, simulation-based power analysis and Bayesian multilevel models (the latter in the supplementary analyses of that study). I have taught statistics at bachelor, master and PhD level.</li>
-<li><strong>Complex data.</strong> I have integrated heterogeneous datasets into one analysis-ready structure and used standardised pipelines (BIDS with Docker for fMRI preprocessing).</li>
+<li><strong>Reproducibility.</strong> I founded a ReproducibiliTea journal club at Stockholm University, where I organised meetings and led discussions. I also regularly share code and data through GitHub and OSF. The data and code from the study mentioned above are publicly available.</li>
+<li><strong>Modelling.</strong> I mainly work in R and have experience with mixed models, simulation-based power analysis and Bayesian multilevel models. I have also taught statistics at bachelor’s, master’s and PhD level.</li>
+<li><strong>Complex data.</strong> I have combined data from different sources into analysis-ready datasets and worked with standardised data structures and preprocessing workflows, including BIDS and Docker for fMRI data. More recently, I have worked with large language model outputs, combining them with survey and psychophysics data.</li>
 </ul>
 </section>
 <section id="how-i-would-work-across-the-ppbs-systems" class="level2">
 <h2 class="anchored" data-anchor-id="how-i-would-work-across-the-ppbs-systems">How I would work across the PPBS systems</h2>
-<p>These answers are proposals based on the briefing. I have not seen PPBS internal folders, so each one is a question to check in week one.</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -180,63 +179,65 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Qualtrics</td>
-<td>Keep the QSF and export under version control. At setup, use one stable item name per question, record reverse keying and non-answer codes in the instrument, and keep the original wording and translation. That would have prevented the ambiguity I hit in this exercise (decision D17 in the decision log).</td>
+<td>I would keep the QSF files and exports under version control. When setting up an instrument, I would use consistent item names and record reverse keying and non-answer codes alongside the original question wording and translations. This would have helped avoid the ambiguity I encountered in this exercise (decision D17 in the decision log).</td>
 </tr>
 <tr class="even">
 <td>Dropbox</td>
-<td>Treat raw files as read-only. Never edit in place: every recode happens in code and writes a new file. The coder’s checks and an independent reviewer’s checks go in separate files, so the reviewer does not just re-run the coder’s script.</td>
+<td>I would treat raw data as read-only and make all changes through code, saving recoded data as new files. I would also keep the original coder’s checks separate from those of an independent reviewer, so the review involves an independent assessment rather than simply running the same script again.</td>
 </tr>
 <tr class="odd">
 <td>Google Drive</td>
-<td>Keep the master codebook as the human-enriched source. A script compares each codebook row with the machine-readable item specification and lists mismatches (names, wording, scale, keying) without overwriting citations, keywords or other metadata.</td>
+<td>I would maintain the master codebook as the main reference for information added by researchers. A script could compare its entries against the machine-readable item specification and flag differences in item names, wording, scales or keying. This would leave other information, such as citations and keywords, untouched.</td>
 </tr>
 <tr class="even">
 <td>GitHub</td>
-<td>Publish item-level coding documentation generated from the specification, so one source feeds the docs and the reports. Embargoed records stay in private repositories, and a leak check on the built site runs before every deployment.</td>
+<td>I would generate item-level coding documentation from the item specification, allowing the same information to be used in both the documentation and reports. Records under embargo would remain in private repositories. I would also include a check of the built site before deployment to catch any data that should not be publicly available.</td>
 </tr>
 <tr class="odd">
 <td>Slack</td>
-<td>Discussion only. Any decision that changes data or results is written to the decision log in the repository with a date, the evidence and a status, so it can be found after the thread is gone.</td>
+<td>I would use Slack for discussion, but keep decisions that affect the data or analysis in the repository’s decision log. This would include the date, reasoning and status of each decision, making it easier to trace decisions later.</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="two-concrete-improvements" class="level2">
 <h2 class="anchored" data-anchor-id="two-concrete-improvements">Two concrete improvements</h2>
-<section id="a-machine-readable-item-specification-that-drives-checks-and-a-reviewer-queue" class="level3">
-<h3 class="anchored" data-anchor-id="a-machine-readable-item-specification-that-drives-checks-and-a-reviewer-queue">1. A machine-readable item specification that drives checks and a reviewer queue</h3>
-<p><strong>What exists here.</strong> <code>config/item_spec.csv</code> holds, for each item: construct, wording, valid range, non-answer codes, waves, and the keying the guide states next to the keying actually applied. The checks read this file, so a new construct or wave is a change to a table, not to code.</p>
-<p><strong>Worked example.</strong> The guide lists inversely coded items for four of the five constructs. Applying them gave reliability near or below zero with negative item-rest correlations. Without reversal, reliability was acceptable and all inter-item correlations were positive. I concluded the extract is already recoded, applied no reversal, kept the guide’s keying in its own column, and logged the question (D17). Today I found this by running scale checks. The improvement is to make that check standing and automatic: every construct and wave gets item-rest correlations and a keying test, and a failure creates a row in a reviewer queue (item, wave, what was expected, what was observed) for a person to resolve.</p>
-<p><strong>Week one.</strong></p>
+<section id="an-item-specification-to-support-automated-checks-and-review" class="level3">
+<h3 class="anchored" data-anchor-id="an-item-specification-to-support-automated-checks-and-review">1. An item specification to support automated checks and review</h3>
+<p><strong>Current setup.</strong> The file config/item_spec.csv contains information about each item, including its construct, wording, valid range, non-answer codes and the waves in which it appears. It also records the keying described in the guide separately from the keying applied in the data. The existing checks read from this file, meaning that adding a construct or wave can be handled by updating the specification rather than changing the analysis code.</p>
+<p><strong>Example from this exercise.</strong> The guide lists items as inversely coded for four of the five constructs. When I applied these reversals, reliability was close to or below zero, with negative item-rest correlations. Without reversing the items, reliability was acceptable and all inter-item correlations were positive. This suggested that the extract had already been recoded. I therefore left the item values unchanged, retained the keying described in the guide in a separate column, and recorded the issue in the decision log (D17).</p>
+<p>I identified this through the scale checks I ran for the exercise. I would extend these checks so they run automatically for every construct and wave. If an item behaves unexpectedly, it would be flagged for review, with the item, wave, expected behaviour and observed results recorded. This would give someone a clear starting point for investigating the issue without allowing the script to make potentially incorrect corrections automatically.</p>
+<p><strong>What I would do in the first week:</strong></p>
 <ul>
-<li><em>Preserve:</em> the source files, the existing codebook, and the decision log format.</li>
-<li><em>Change:</em> move the checks to read the specification, and add the queue as a plain file in the repository.</li>
-<li><em>Verify:</em> the spec-driven checks must reproduce my hand calculation of reliability for one construct and wave, and must flag a deliberately broken test item.</li>
-<li><em>Complete:</em> run the queue on the approved full dataset and have a research lead clear or reject each row.</li>
+<li>Preserve the original source files, existing codebook and decision log format.</li>
+<li>Adapt the checks to read directly from the item specification and add a reviewer queue to the repository.</li>
+<li>Compare the automated reliability calculations against my hand calculation for one construct and wave, and test whether the checks flag an intentionally misconfigured item.</li>
+<li>Run the checks on the approved full dataset and have a research lead review and resolve the flagged items.</li>
 </ul>
 </section>
-<section id="a-restartable-build-with-dependency-tracking" class="level3">
-<h3 class="anchored" data-anchor-id="a-restartable-build-with-dependency-tracking">2. A restartable build with dependency tracking</h3>
-<p><strong>What exists here.</strong> One command, <code>source("run.R")</code>, builds the processed scores, runs the tests, renders the site and leak-checks the output. It stops at the first failure. It reruns everything each time.</p>
-<p><strong>Proposal.</strong> Move to a <code>targets</code> pipeline so a correction to one item propagates only to the reports that depend on it. Slow steps (scoring, model fitting) are separated from presentation, and a rebuild can be spread across workers on a computing cluster for a full dataset or ten countries. <code>renv</code> stays, so package versions remain declared.</p>
-<p><strong>Week one.</strong> <em>Preserve</em> <code>run.R</code> as the entry point and the tests. <em>Change</em> the internals to targets. <em>Verify</em> that the targets build gives byte-identical processed scores to <code>run.R</code> on the exercise data. <em>Complete</em> by documenting how to rerun on the approved full dataset.</p>
-<p>I have not built the targets version yet. It is a plan, not a result.</p>
+<section id="making-the-build-more-efficient-and-easier-to-restart" class="level3">
+<h3 class="anchored" data-anchor-id="making-the-build-more-efficient-and-easier-to-restart">2. Making the build more efficient and easier to restart</h3>
+<p><strong>Current setup.</strong> The current entry point is source(“run.R”). It processes the scores, runs the tests, renders the site and checks the output for potential data leaks. It stops if a step fails, but currently reruns the entire workflow each time.</p>
+<p><strong>What I would change.</strong> I would move the workflow to targets, which would track dependencies between steps and only rerun those affected by a change. For example, correcting one item would trigger the relevant scoring and analyses without requiring every report to be rebuilt. Scoring and model fitting could also be kept separate from report generation. For larger datasets, the pipeline could be configured to run across multiple workers on a computing cluster. I would retain renv to keep package versions consistent.</p>
+<p><strong>What I would do in the first week.</strong> Keep run.R as the entry point and retain the existing tests, while changing the underlying workflow to use targets. I would compare the resulting processed scores against those produced by the current script to check that they are identical on the exercise data. I would then document how to run the pipeline on the approved full dataset.</p>
+<p>I have not built the targets version yet. This is a proposed improvement, not something I have already implemented.</p>
 </section>
 </section>
-<section id="tools-i-could-use-immediately" class="level2">
-<h2 class="anchored" data-anchor-id="tools-i-could-use-immediately">Tools I could use immediately</h2>
-<p><code>renv</code> (declared versions), <code>targets</code> (dependency tracking), <code>quarto</code> (parameterised reports), <code>psych</code> and <code>lavaan</code> (reliability, omega, factor models), <code>marginaleffects</code> and the easystats packages (<code>parameters</code>, <code>performance</code>, <code>effectsize</code>, <code>report</code>) for consistent summaries, <code>testthat</code> (tests), and <code>brms</code> or Stan for multilevel and Bayesian models. Any package whose output I rely on gets checked against a simple hand calculation first, as I did for reliability here.</p>
+<section id="tools-i-could-use" class="level2">
+<h2 class="anchored" data-anchor-id="tools-i-could-use">Tools I could use</h2>
+<p>I would continue using R as the main environment for the analysis. renv would manage package versions, targets would handle dependencies between analysis steps, and Quarto would be useful for generating reports. For scale evaluation and factor models, I would use packages such as psych and lavaan. testthat would support automated checks, while brms or Stan could be used for Bayesian multilevel models where appropriate.</p>
+<p>For reporting model results, I would also consider marginaleffects and packages from the easystats collection, such as parameters, performance and effectsize. Regardless of the package, I would check important outputs against simpler calculations where possible, as I did with the reliability calculations in this exercise.</p>
 </section>
 <section id="decisions-i-would-make-myself-and-decisions-for-a-research-lead" class="level2">
 <h2 class="anchored" data-anchor-id="decisions-i-would-make-myself-and-decisions-for-a-research-lead">Decisions I would make myself, and decisions for a research lead</h2>
-<p><strong>Myself:</strong> naming, file layout, tests and checks, wording of limitations, how to display uncertainty, and anything covered by an existing written rule.</p>
-<p><strong>For a research lead:</strong></p>
+<p>There are several parts of the workflow I would be comfortable managing independently. These include file naming and organisation, writing and maintaining tests, documenting limitations, deciding how to present uncertainty, and following existing written procedures.</p>
+<p>Other decisions have implications for the research itself and should involve a research lead:</p>
 <ul>
-<li>Whether items that look already recoded become the documented standard (D17).</li>
-<li>How to treat columns the guide does not explain.</li>
-<li>Whether attrition in the full dataset changes the balanced-panel versus available-case choice.</li>
-<li>Any change to coding that alters a published PPBS result.</li>
-<li>Disclosure thresholds, and what may appear on the public site.</li>
+<li>Whether items that appear to have already been recoded should become the documented standard (D17).</li>
+<li>How to handle columns that are not explained in the existing guide.</li>
+<li>Whether attrition in the full dataset affects the choice between a balanced panel and an available-case analysis.</li>
+<li>Changes to coding that could alter previously published PPBS results.</li>
+<li>Decisions about disclosure thresholds and which results or data can appear on the public site.</li>
 </ul>
 
 

@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#can-scores-be-compared-across-waves" id="toc-can-scores-be-compared-across-waves" class="nav-link" data-scroll-target="#can-scores-be-compared-across-waves">Can scores be compared across waves?</a></li>
   <li><a href="#mean-change-and-rank-order-stability" id="toc-mean-change-and-rank-order-stability" class="nav-link" data-scroll-target="#mean-change-and-rank-order-stability">Mean change and rank-order stability</a></li>
-  <li><a href="#robustness-balanced-panel" id="toc-robustness-balanced-panel" class="nav-link" data-scroll-target="#robustness-balanced-panel">Robustness: balanced panel</a></li>
+  <li><a href="#mixed-model-estimate-of-change" id="toc-mixed-model-estimate-of-change" class="nav-link" data-scroll-target="#mixed-model-estimate-of-change">Mixed-model estimate of change</a></li>
   </ul></li>
   <li><a href="#departures-and-limitations" id="toc-departures-and-limitations" class="nav-link" data-scroll-target="#departures-and-limitations">Departures and limitations</a></li>
   <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility">Reproducibility</a></li>
@@ -829,8 +829,52 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="robustness-balanced-panel" class="level2">
-<h2 class="anchored" data-anchor-id="robustness-balanced-panel">Robustness: balanced panel</h2>
+<section id="mixed-model-estimate-of-change" class="level2">
+<h2 class="anchored" data-anchor-id="mixed-model-estimate-of-change">Mixed-model estimate of change</h2>
+<p>As a complement to the pairwise contrasts, a linear mixed model estimates the mean at each wave with a random intercept per respondent: score ~ wave (factor) + (1 | respondent), fitted by REML with Satterthwaite degrees of freedom. All available observations are used, so no balanced panel is assumed. The table gives the wave 1 mean and the change from wave 1 at each later wave with 95% confidence intervals. The intraclass correlation (ICC) is the share of variance due to stable differences between respondents. The contrasts are unadjusted for multiple comparisons, so a few intervals excluding 0 are expected by chance. Estimates are associations in observed scores and do not address measurement invariance (see the comparability statement above).</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Wave</th>
+<th style="text-align: left;">Quantity</th>
+<th style="text-align: right;">Estimate</th>
+<th style="text-align: right;">95% CI</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Mean</td>
+<td style="text-align: right;">3.97</td>
+<td style="text-align: right;">[3.87, 4.08]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Change from wave 1</td>
+<td style="text-align: right;">0.11</td>
+<td style="text-align: right;">[0.04, 0.19]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Change from wave 1</td>
+<td style="text-align: right;">0.05</td>
+<td style="text-align: right;">[-0.03, 0.12]</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Change from wave 1</td>
+<td style="text-align: right;">0.11</td>
+<td style="text-align: right;">[0.03, 0.19]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Change from wave 1</td>
+<td style="text-align: right;">0.17</td>
+<td style="text-align: right;">[0.09, 0.24]</td>
+</tr>
+</tbody>
+</table>
+<p>Respondents: 500; observations: 2500; ICC = 0.72. Converged: yes; singular fit: no. ## Robustness: balanced panel</p>
 <p>The balanced panel keeps the 500 of 500 respondents with a score at every wave. The largest absolute difference in mean change between the available-case and balanced-panel estimates is 0.</p>
 <table class="caption-top table">
 <caption>Adjacent waves, balanced panel.</caption>
