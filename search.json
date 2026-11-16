@@ -81,7 +81,7 @@
     "href": "reports/sdo.html#psychometrics",
     "title": "Social dominance orientation",
     "section": "Psychometrics",
-    "text": "Psychometrics\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Reliability (alpha, omega) and factor structure need item-level data. They will be computed locally and saved as an aggregate-only file that this report reads."
+    "text": "Psychometrics\nReliability is computed locally from the item-level data and saved as an aggregate-only file (config/psychometrics_results.csv, produced by R/08_psychometrics.R); this report reads only that file. Statistics use respondents with a valid answer on every item of the wave (complete cases). Alpha is Cronbach’s alpha. Omega is McDonald’s omega total from a one-factor model, so it assumes a single dimension; this is provisional for right-wing authoritarianism (possibly three facets) and social dominance orientation (possibly two), pending a multi-factor check. The last column is the lowest corrected item-rest correlation.\n\nReliability by wave (aggregate statistics only).\n\n\nWave\nn complete\nItems\nAlpha\nOmega (1 factor)\nLowest item-rest r\n\n\n\n\n1\n500\n8\n0.77\n0.78\n0.33\n\n\n2\n500\n8\n0.81\n0.82\n0.38\n\n\n3\n500\n8\n0.79\n0.80\n0.37\n\n\n4\n500\n8\n0.79\n0.80\n0.32\n\n\n5\n500\n8\n0.80\n0.81\n0.39"
   },
   {
     "objectID": "reports/sdo.html#demographic-and-political-correlates",
@@ -137,7 +137,7 @@
     "href": "reports/cwv.html#psychometrics",
     "title": "Competitive worldview",
     "section": "Psychometrics",
-    "text": "Psychometrics\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Reliability (alpha, omega) and factor structure need item-level data. They will be computed locally and saved as an aggregate-only file that this report reads."
+    "text": "Psychometrics\nReliability is computed locally from the item-level data and saved as an aggregate-only file (config/psychometrics_results.csv, produced by R/08_psychometrics.R); this report reads only that file. Statistics use respondents with a valid answer on every item of the wave (complete cases). Alpha is Cronbach’s alpha. Omega is McDonald’s omega total from a one-factor model, so it assumes a single dimension; this is provisional for right-wing authoritarianism (possibly three facets) and social dominance orientation (possibly two), pending a multi-factor check. The last column is the lowest corrected item-rest correlation.\n\nReliability by wave (aggregate statistics only).\n\n\nWave\nn complete\nItems\nAlpha\nOmega (1 factor)\nLowest item-rest r\n\n\n\n\n1\n500\n4\n0.73\n0.76\n0.34\n\n\n2\n500\n4\n0.73\n0.77\n0.41\n\n\n3\n500\n4\n0.74\n0.78\n0.40\n\n\n4\n500\n4\n0.72\n0.75\n0.40\n\n\n5\n500\n4\n0.74\n0.77\n0.46"
   },
   {
     "objectID": "reports/cwv.html#demographic-and-political-correlates",
@@ -256,7 +256,7 @@
     "href": "reports/bdw.html#psychometrics",
     "title": "Belief in a dangerous world",
     "section": "Psychometrics",
-    "text": "Psychometrics\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Reliability (alpha, omega) and factor structure need item-level data. They will be computed locally and saved as an aggregate-only file that this report reads."
+    "text": "Psychometrics\nReliability is computed locally from the item-level data and saved as an aggregate-only file (config/psychometrics_results.csv, produced by R/08_psychometrics.R); this report reads only that file. Statistics use respondents with a valid answer on every item of the wave (complete cases). Alpha is Cronbach’s alpha. Omega is McDonald’s omega total from a one-factor model, so it assumes a single dimension; this is provisional for right-wing authoritarianism (possibly three facets) and social dominance orientation (possibly two), pending a multi-factor check. The last column is the lowest corrected item-rest correlation.\n\nReliability by wave (aggregate statistics only).\n\n\nWave\nn complete\nItems\nAlpha\nOmega (1 factor)\nLowest item-rest r\n\n\n\n\n1\n500\n5\n0.79\n0.80\n0.47\n\n\n2\n500\n5\n0.77\n0.78\n0.40\n\n\n3\n500\n5\n0.78\n0.78\n0.49\n\n\n4\n500\n5\n0.82\n0.83\n0.55\n\n\n5\n500\n5\n0.80\n0.81\n0.47"
   },
   {
     "objectID": "reports/bdw.html#demographic-and-political-correlates",
@@ -312,7 +312,7 @@
     "href": "reports/rwa.html#psychometrics",
     "title": "Right-wing authoritarianism",
     "section": "Psychometrics",
-    "text": "Psychometrics\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Reliability (alpha, omega) and factor structure need item-level data. They will be computed locally and saved as an aggregate-only file that this report reads."
+    "text": "Psychometrics\nReliability is computed locally from the item-level data and saved as an aggregate-only file (config/psychometrics_results.csv, produced by R/08_psychometrics.R); this report reads only that file. Statistics use respondents with a valid answer on every item of the wave (complete cases). Alpha is Cronbach’s alpha. Omega is McDonald’s omega total from a one-factor model, so it assumes a single dimension; this is provisional for right-wing authoritarianism (possibly three facets) and social dominance orientation (possibly two), pending a multi-factor check. The last column is the lowest corrected item-rest correlation.\n\nReliability by wave (aggregate statistics only).\n\n\nWave\nn complete\nItems\nAlpha\nOmega (1 factor)\nLowest item-rest r\n\n\n\n\n1\n500\n9\n0.85\n0.86\n0.53\n\n\n2\n500\n9\n0.84\n0.84\n0.50\n\n\n3\n500\n9\n0.87\n0.87\n0.53\n\n\n4\n500\n9\n0.87\n0.87\n0.52\n\n\n5\n500\n9\n0.85\n0.85\n0.53"
   },
   {
     "objectID": "reports/rwa.html#demographic-and-political-correlates",
@@ -368,7 +368,7 @@
     "href": "reports/sj.html#psychometrics",
     "title": "System justification",
     "section": "Psychometrics",
-    "text": "Psychometrics\n\n\n\n\n\n\nNote\n\n\n\nTo be completed. Reliability (alpha, omega) and factor structure need item-level data. They will be computed locally and saved as an aggregate-only file that this report reads."
+    "text": "Psychometrics\nReliability is computed locally from the item-level data and saved as an aggregate-only file (config/psychometrics_results.csv, produced by R/08_psychometrics.R); this report reads only that file. Statistics use respondents with a valid answer on every item of the wave (complete cases). Alpha is Cronbach’s alpha. Omega is McDonald’s omega total from a one-factor model, so it assumes a single dimension; this is provisional for right-wing authoritarianism (possibly three facets) and social dominance orientation (possibly two), pending a multi-factor check. The last column is the lowest corrected item-rest correlation.\n\nReliability by wave (aggregate statistics only).\n\n\nWave\nn complete\nItems\nAlpha\nOmega (1 factor)\nLowest item-rest r\n\n\n\n\n1\n500\n8\n0.87\n0.87\n0.48\n\n\n2\n500\n8\n0.87\n0.88\n0.52\n\n\n3\n500\n8\n0.87\n0.88\n0.49\n\n\n4\n500\n8\n0.86\n0.87\n0.43\n\n\n5\n500\n8\n0.87\n0.87\n0.45"
   },
   {
     "objectID": "reports/sj.html#demographic-and-political-correlates",
