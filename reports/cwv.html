@@ -132,6 +132,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#can-scores-be-compared-across-waves" id="toc-can-scores-be-compared-across-waves" class="nav-link" data-scroll-target="#can-scores-be-compared-across-waves">Can scores be compared across waves?</a></li>
   <li><a href="#mean-change-and-rank-order-stability" id="toc-mean-change-and-rank-order-stability" class="nav-link" data-scroll-target="#mean-change-and-rank-order-stability">Mean change and rank-order stability</a></li>
   <li><a href="#mixed-model-estimate-of-change" id="toc-mixed-model-estimate-of-change" class="nav-link" data-scroll-target="#mixed-model-estimate-of-change">Mixed-model estimate of change</a></li>
+  <li><a href="#robustness-balanced-panel" id="toc-robustness-balanced-panel" class="nav-link" data-scroll-target="#robustness-balanced-panel">Robustness: balanced panel</a></li>
   </ul></li>
   <li><a href="#departures-and-limitations" id="toc-departures-and-limitations" class="nav-link" data-scroll-target="#departures-and-limitations">Departures and limitations</a></li>
   <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility">Reproducibility</a></li>
@@ -333,7 +334,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="psychometrics" class="level2">
 <h2 class="anchored" data-anchor-id="psychometrics">Psychometrics</h2>
-<p>Reliability is computed locally from the item-level data and saved as an aggregate-only file (<code>config/psychometrics_results.csv</code>, produced by <code>R/08_psychometrics.R</code>); this report reads only that file. Statistics use respondents with a valid answer on every item of the wave (complete cases). Alpha is Cronbach’s alpha. Omega is McDonald’s omega total from a one-factor model, so it assumes a single dimension; this is provisional for right-wing authoritarianism (possibly three facets) and social dominance orientation (possibly two), pending a multi-factor check. The last column is the lowest corrected item-rest correlation.</p>
+<p>Reliability is computed locally from the item-level data and saved as an aggregate-only file (<code>config/psychometrics_results.csv</code>, produced by <code>R/08_psychometrics.R</code>); this report reads only that file. Statistics use respondents with a valid answer on every item of the wave (complete cases). Alpha is Cronbach’s alpha. Omega is McDonald’s omega total from a one-factor model, so it assumes a single dimension. The last column is the lowest corrected item-rest correlation.</p>
 <table class="caption-top table">
 <caption>Reliability by wave (aggregate statistics only).</caption>
 <thead>
@@ -867,7 +868,10 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>Respondents: 500; observations: 2500; ICC = 0.67. Converged: yes; singular fit: no. ## Robustness: balanced panel</p>
+<p>Respondents: 500; observations: 2500; ICC = 0.67. Converged: yes; singular fit: no.</p>
+</section>
+<section id="robustness-balanced-panel" class="level2">
+<h2 class="anchored" data-anchor-id="robustness-balanced-panel">Robustness: balanced panel</h2>
 <p>The balanced panel keeps the 500 of 500 respondents with a score at every wave. The largest absolute difference in mean change between the available-case and balanced-panel estimates is 0.</p>
 <table class="caption-top table">
 <caption>Adjacent waves, balanced panel.</caption>

@@ -124,7 +124,10 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#descriptives-by-wave" id="toc-descriptives-by-wave" class="nav-link" data-scroll-target="#descriptives-by-wave">Descriptives by wave</a></li>
   <li><a href="#missing-and-invalid-responses-by-wave" id="toc-missing-and-invalid-responses-by-wave" class="nav-link" data-scroll-target="#missing-and-invalid-responses-by-wave">Missing and invalid responses by wave</a></li>
-  <li><a href="#psychometrics" id="toc-psychometrics" class="nav-link" data-scroll-target="#psychometrics">Psychometrics</a></li>
+  <li><a href="#psychometrics" id="toc-psychometrics" class="nav-link" data-scroll-target="#psychometrics">Psychometrics</a>
+  <ul class="collapse">
+  <li><a href="#facet-structure" id="toc-facet-structure" class="nav-link" data-scroll-target="#facet-structure">Facet structure</a></li>
+  </ul></li>
   <li><a href="#demographic-and-political-correlates" id="toc-demographic-and-political-correlates" class="nav-link" data-scroll-target="#demographic-and-political-correlates">Demographic and political correlates</a></li>
   </ul></li>
   <li><a href="#longitudinal-report" id="toc-longitudinal-report" class="nav-link" data-scroll-target="#longitudinal-report">Longitudinal report</a>
@@ -132,6 +135,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#can-scores-be-compared-across-waves" id="toc-can-scores-be-compared-across-waves" class="nav-link" data-scroll-target="#can-scores-be-compared-across-waves">Can scores be compared across waves?</a></li>
   <li><a href="#mean-change-and-rank-order-stability" id="toc-mean-change-and-rank-order-stability" class="nav-link" data-scroll-target="#mean-change-and-rank-order-stability">Mean change and rank-order stability</a></li>
   <li><a href="#mixed-model-estimate-of-change" id="toc-mixed-model-estimate-of-change" class="nav-link" data-scroll-target="#mixed-model-estimate-of-change">Mixed-model estimate of change</a></li>
+  <li><a href="#robustness-balanced-panel" id="toc-robustness-balanced-panel" class="nav-link" data-scroll-target="#robustness-balanced-panel">Robustness: balanced panel</a></li>
   </ul></li>
   <li><a href="#departures-and-limitations" id="toc-departures-and-limitations" class="nav-link" data-scroll-target="#departures-and-limitations">Departures and limitations</a></li>
   <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility">Reproducibility</a></li>
@@ -368,7 +372,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="psychometrics" class="level2">
 <h2 class="anchored" data-anchor-id="psychometrics">Psychometrics</h2>
-<p>Reliability is computed locally from the item-level data and saved as an aggregate-only file (<code>config/psychometrics_results.csv</code>, produced by <code>R/08_psychometrics.R</code>); this report reads only that file. Statistics use respondents with a valid answer on every item of the wave (complete cases). Alpha is Cronbach’s alpha. Omega is McDonald’s omega total from a one-factor model, so it assumes a single dimension; this is provisional for right-wing authoritarianism (possibly three facets) and social dominance orientation (possibly two), pending a multi-factor check. The last column is the lowest corrected item-rest correlation.</p>
+<p>Reliability is computed locally from the item-level data and saved as an aggregate-only file (<code>config/psychometrics_results.csv</code>, produced by <code>R/08_psychometrics.R</code>); this report reads only that file. Statistics use respondents with a valid answer on every item of the wave (complete cases). Alpha is Cronbach’s alpha. Omega is McDonald’s omega total from a one-factor model, so it assumes a single dimension (see the facet check after this table). The last column is the lowest corrected item-rest correlation.</p>
 <table class="caption-top table">
 <caption>Reliability by wave (aggregate statistics only).</caption>
 <thead>
@@ -424,6 +428,137 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+<section id="facet-structure" class="level3">
+<h3 class="anchored" data-anchor-id="facet-structure">Facet structure</h3>
+<p>A one-factor model was compared with an exploratory factor model (maximum likelihood, oblimin rotation, all cross-loadings free) with as many factors as provisional subscales in the item specification. It is computed locally by <code>R/09_facets.R</code> on complete cases and saved as aggregate output only. Because cross-loadings are free, it asks whether the provisional subscales can be recovered; it is not a confirmatory test, and one extract of 500 respondents gives no evidence of measurement invariance across waves (D24).</p>
+<p>Items whose largest loading is on the factor matching their provisional subscale, waves 1 to 5: 9, 9, 9, 9, 9 (of 9 items).</p>
+<table class="caption-top table">
+<caption>One-factor versus facet model by wave (aggregate fit statistics only).</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;">Wave</th>
+<th style="text-align: left;">Model</th>
+<th style="text-align: right;">n complete</th>
+<th style="text-align: right;">Chi-square</th>
+<th style="text-align: right;">df</th>
+<th style="text-align: right;">RMSEA</th>
+<th style="text-align: right;">TLI</th>
+<th style="text-align: right;">BIC</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">one factor</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">343.1</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">0.153</td>
+<td style="text-align: right;">0.738</td>
+<td style="text-align: right;">175.3</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">3 facets</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">30.9</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0.056</td>
+<td style="text-align: right;">0.965</td>
+<td style="text-align: right;">-43.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">one factor</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">382.5</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">0.162</td>
+<td style="text-align: right;">0.691</td>
+<td style="text-align: right;">214.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">3 facets</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">16.7</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0.028</td>
+<td style="text-align: right;">0.991</td>
+<td style="text-align: right;">-57.9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">one factor</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">480.5</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">0.183</td>
+<td style="text-align: right;">0.681</td>
+<td style="text-align: right;">312.7</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">3 facets</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">32.9</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0.059</td>
+<td style="text-align: right;">0.967</td>
+<td style="text-align: right;">-41.7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">one factor</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">432.8</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">0.173</td>
+<td style="text-align: right;">0.711</td>
+<td style="text-align: right;">265.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">3 facets</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">30.9</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0.056</td>
+<td style="text-align: right;">0.970</td>
+<td style="text-align: right;">-43.6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">one factor</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">426.2</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">0.172</td>
+<td style="text-align: right;">0.679</td>
+<td style="text-align: right;">258.4</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">3 facets</td>
+<td style="text-align: right;">500</td>
+<td style="text-align: right;">31.5</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0.057</td>
+<td style="text-align: right;">0.965</td>
+<td style="text-align: right;">-43.0</td>
+</tr>
+</tbody>
+</table>
+<p>The three provisional subscales (aggression, submission, conventionalism) are recovered when the agreement counts above equal the number of items, and the facet model should then fit clearly better than one factor (lower RMSEA and BIC, higher TLI). Where that holds, alpha and the single omega above should not be read as evidence that the scale is unidimensional.</p>
+<p>Correlations between the facet factors, by wave. The factor labels (ML1, ML2, ML3) are arbitrary: each wave has its own fit, so the same label can refer to different facets in different waves. Read the sizes of the values, not the order of the pairs.</p>
+<ul>
+<li>Wave 1: ML2 with ML3 0.57; ML2 with ML1 0.55; ML3 with ML1 0.45.</li>
+<li>Wave 2: ML1 with ML2 0.50; ML1 with ML3 0.54; ML2 with ML3 0.47.</li>
+<li>Wave 3: ML3 with ML2 0.57; ML3 with ML1 0.48; ML2 with ML1 0.49.</li>
+<li>Wave 4: ML1 with ML2 0.61; ML1 with ML3 0.51; ML2 with ML3 0.46.</li>
+<li>Wave 5: ML3 with ML2 0.48; ML3 with ML1 0.51; ML2 with ML1 0.45.</li>
+</ul>
+</section>
 </section>
 <section id="demographic-and-political-correlates" class="level2">
 <h2 class="anchored" data-anchor-id="demographic-and-political-correlates">Demographic and political correlates</h2>
@@ -902,7 +1037,10 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>Respondents: 500; observations: 2500; ICC = 0.79. Converged: yes; singular fit: no. ## Robustness: balanced panel</p>
+<p>Respondents: 500; observations: 2500; ICC = 0.79. Converged: yes; singular fit: no.</p>
+</section>
+<section id="robustness-balanced-panel" class="level2">
+<h2 class="anchored" data-anchor-id="robustness-balanced-panel">Robustness: balanced panel</h2>
 <p>The balanced panel keeps the 500 of 500 respondents with a score at every wave. The largest absolute difference in mean change between the available-case and balanced-panel estimates is 0.</p>
 <table class="caption-top table">
 <caption>Adjacent waves, balanced panel.</caption>
