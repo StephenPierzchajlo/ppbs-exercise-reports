@@ -135,6 +135,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#wave-1" id="toc-wave-1" class="nav-link" data-scroll-target="#wave-1">Wave 1</a></li>
   <li><a href="#wave-5" id="toc-wave-5" class="nav-link" data-scroll-target="#wave-5">Wave 5</a></li>
   </ul></li>
+  <li><a href="#vote-at-wave-5-and-construct-scores" id="toc-vote-at-wave-5-and-construct-scores" class="nav-link" data-scroll-target="#vote-at-wave-5-and-construct-scores">Vote at wave 5 and construct scores</a></li>
   <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
   </ul>
 </nav>
@@ -1369,6 +1370,230 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
+</section>
+<section id="vote-at-wave-5-and-construct-scores" class="level1">
+<h1>Vote at wave 5 and construct scores</h1>
+<p>A multinomial logistic regression relates the wave 5 vote category to the five wave 1 construct scores. Each score is standardised, so odds ratios are per one standard deviation. Every predictor comes from an earlier wave than the outcome, and the function refuses a later-wave predictor. The reference category is CDU/CSU. Categories with fewer than 30 respondents at wave 5 were left out (FDP, Left, Would not vote), and so were respondents with a missing vote answer or a missing score. The model uses 425 respondents.</p>
+<table class="caption-top table">
+<caption>Odds ratios for wave 5 vote category from wave 1 scores (aggregate estimates only).</caption>
+<colgroup>
+<col style="width: 39%">
+<col style="width: 17%">
+<col style="width: 24%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Vote category (vs reference)</th>
+<th style="text-align: left;">Wave 1 score</th>
+<th style="text-align: left;">Odds ratio per SD</th>
+<th style="text-align: left;">95% CI</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">AfD</td>
+<td style="text-align: left;">RWA</td>
+<td style="text-align: left;">0.87</td>
+<td style="text-align: left;">0.56 to 1.36</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AfD</td>
+<td style="text-align: left;">SDO</td>
+<td style="text-align: left;">1.39</td>
+<td style="text-align: left;">0.89 to 2.15</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AfD</td>
+<td style="text-align: left;">BDW</td>
+<td style="text-align: left;">1.45</td>
+<td style="text-align: left;">0.87 to 2.41</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">AfD</td>
+<td style="text-align: left;">CWV</td>
+<td style="text-align: left;">1.01</td>
+<td style="text-align: left;">0.68 to 1.48</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">AfD</td>
+<td style="text-align: left;">SJ</td>
+<td style="text-align: left;">0.21</td>
+<td style="text-align: left;">0.12 to 0.36</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Greens</td>
+<td style="text-align: left;">RWA</td>
+<td style="text-align: left;">0.38</td>
+<td style="text-align: left;">0.25 to 0.56</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Greens</td>
+<td style="text-align: left;">SDO</td>
+<td style="text-align: left;">0.65</td>
+<td style="text-align: left;">0.43 to 1.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Greens</td>
+<td style="text-align: left;">BDW</td>
+<td style="text-align: left;">0.98</td>
+<td style="text-align: left;">0.61 to 1.57</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Greens</td>
+<td style="text-align: left;">CWV</td>
+<td style="text-align: left;">0.70</td>
+<td style="text-align: left;">0.46 to 1.04</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Greens</td>
+<td style="text-align: left;">SJ</td>
+<td style="text-align: left;">0.98</td>
+<td style="text-align: left;">0.59 to 1.61</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Other party</td>
+<td style="text-align: left;">RWA</td>
+<td style="text-align: left;">0.57</td>
+<td style="text-align: left;">0.35 to 0.90</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Other party</td>
+<td style="text-align: left;">SDO</td>
+<td style="text-align: left;">0.90</td>
+<td style="text-align: left;">0.56 to 1.46</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Other party</td>
+<td style="text-align: left;">BDW</td>
+<td style="text-align: left;">0.86</td>
+<td style="text-align: left;">0.49 to 1.52</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Other party</td>
+<td style="text-align: left;">CWV</td>
+<td style="text-align: left;">0.67</td>
+<td style="text-align: left;">0.42 to 1.07</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Other party</td>
+<td style="text-align: left;">SJ</td>
+<td style="text-align: left;">0.19</td>
+<td style="text-align: left;">0.10 to 0.37</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SPD</td>
+<td style="text-align: left;">RWA</td>
+<td style="text-align: left;">0.70</td>
+<td style="text-align: left;">0.45 to 1.08</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SPD</td>
+<td style="text-align: left;">SDO</td>
+<td style="text-align: left;">0.66</td>
+<td style="text-align: left;">0.41 to 1.04</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SPD</td>
+<td style="text-align: left;">BDW</td>
+<td style="text-align: left;">0.94</td>
+<td style="text-align: left;">0.56 to 1.57</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SPD</td>
+<td style="text-align: left;">CWV</td>
+<td style="text-align: left;">0.73</td>
+<td style="text-align: left;">0.46 to 1.15</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SPD</td>
+<td style="text-align: left;">SJ</td>
+<td style="text-align: left;">1.35</td>
+<td style="text-align: left;">0.78 to 2.33</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Undecided</td>
+<td style="text-align: left;">RWA</td>
+<td style="text-align: left;">0.55</td>
+<td style="text-align: left;">0.38 to 0.79</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Undecided</td>
+<td style="text-align: left;">SDO</td>
+<td style="text-align: left;">0.78</td>
+<td style="text-align: left;">0.53 to 1.14</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Undecided</td>
+<td style="text-align: left;">BDW</td>
+<td style="text-align: left;">1.22</td>
+<td style="text-align: left;">0.79 to 1.88</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Undecided</td>
+<td style="text-align: left;">CWV</td>
+<td style="text-align: left;">0.87</td>
+<td style="text-align: left;">0.61 to 1.23</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Undecided</td>
+<td style="text-align: left;">SJ</td>
+<td style="text-align: left;">0.63</td>
+<td style="text-align: left;">0.40 to 1.00</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<caption>Likelihood-ratio tests: all scores together, and each score dropped in turn.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Test</th>
+<th style="text-align: left;">Chi-square</th>
+<th style="text-align: right;">df</th>
+<th style="text-align: left;">p</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">all predictors together</td>
+<td style="text-align: left;">237.4</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: left;">&lt;0.001</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">RWA</td>
+<td style="text-align: left;">31.5</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">&lt;0.001</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SDO</td>
+<td style="text-align: left;">14.0</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">0.015</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BDW</td>
+<td style="text-align: left;">4.8</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">0.439</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CWV</td>
+<td style="text-align: left;">6.8</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">0.233</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SJ</td>
+<td style="text-align: left;">64.7</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">&lt;0.001</td>
+</tr>
+</tbody>
+</table>
+<p>McFadden pseudo R-squared: 0.161. The model converged.</p>
+<p>These are associations in one extract, not effects. The scores overlap conceptually with party preference, and the BDW and SJ scores are strongly correlated, so their separate odds ratios are less certain than the joint test. Vote at wave 1 is not included, so this model describes who ends up in each category, not who switches.</p>
 </section>
 <section id="limitations" class="level1">
 <h1>Limitations</h1>
