@@ -127,6 +127,16 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#making-the-build-more-efficient-and-easier-to-restart" id="toc-making-the-build-more-efficient-and-easier-to-restart" class="nav-link" data-scroll-target="#making-the-build-more-efficient-and-easier-to-restart">2. Making the build more efficient and easier to restart</a></li>
   </ul></li>
   <li><a href="#tools-i-could-use" id="toc-tools-i-could-use" class="nav-link" data-scroll-target="#tools-i-could-use">Tools I could use</a></li>
+  <li><a href="#further-answers-to-the-workflow-briefing" id="toc-further-answers-to-the-workflow-briefing" class="nav-link" data-scroll-target="#further-answers-to-the-workflow-briefing">Further answers to the workflow briefing</a>
+  <ul class="collapse">
+  <li><a href="#a-small-sample-register" id="toc-a-small-sample-register" class="nav-link" data-scroll-target="#a-small-sample-register">A small sample register</a></li>
+  <li><a href="#one-item-from-qsf-to-processed-variable-including-a-legitimate-skip" id="toc-one-item-from-qsf-to-processed-variable-including-a-legitimate-skip" class="nav-link" data-scroll-target="#one-item-from-qsf-to-processed-variable-including-a-legitimate-skip">One item from QSF to processed variable, including a legitimate skip</a></li>
+  <li><a href="#a-codebook-mismatch-the-checker-should-flag" id="toc-a-codebook-mismatch-the-checker-should-flag" class="nav-link" data-scroll-target="#a-codebook-mismatch-the-checker-should-flag">A codebook mismatch the checker should flag</a></li>
+  <li><a href="#from-a-slack-decision-to-a-durable-record" id="toc-from-a-slack-decision-to-a-durable-record" class="nav-link" data-scroll-target="#from-a-slack-decision-to-a-durable-record">From a Slack decision to a durable record</a></li>
+  <li><a href="#a-public-page-for-how-a-variable-was-coded" id="toc-a-public-page-for-how-a-variable-was-coded" class="nav-link" data-scroll-target="#a-public-page-for-how-a-variable-was-coded">A public page for how a variable was coded</a></li>
+  <li><a href="#limesurvey-python-and-the-cluster" id="toc-limesurvey-python-and-the-cluster" class="nav-link" data-scroll-target="#limesurvey-python-and-the-cluster">LimeSurvey, Python and the cluster</a></li>
+  <li><a href="#the-research-direction-i-would-support-first" id="toc-the-research-direction-i-would-support-first" class="nav-link" data-scroll-target="#the-research-direction-i-would-support-first">The research direction I would support first</a></li>
+  </ul></li>
   <li><a href="#decisions-i-would-make-myself-and-decisions-for-a-research-lead" id="toc-decisions-i-would-make-myself-and-decisions-for-a-research-lead" class="nav-link" data-scroll-target="#decisions-i-would-make-myself-and-decisions-for-a-research-lead">Decisions I would make myself, and decisions for a research lead</a></li>
   </ul>
 </nav>
@@ -227,6 +237,127 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="tools-i-could-use">Tools I could use</h2>
 <p>I would continue using R as the main environment for the analysis. renv would manage package versions, targets would handle dependencies between analysis steps, and Quarto would be useful for generating reports. For scale evaluation and factor models, I would use packages such as psych and lavaan. testthat would support automated checks, while brms or Stan could be used for Bayesian multilevel models where appropriate.</p>
 <p>For reporting model results, I would also consider marginaleffects and packages from the easystats collection, such as parameters, performance and effectsize. Regardless of the package, I would check important outputs against simpler calculations where possible, as I did with the reliability calculations in this exercise.</p>
+</section>
+<section id="further-answers-to-the-workflow-briefing" class="level2">
+<h2 class="anchored" data-anchor-id="further-answers-to-the-workflow-briefing">Further answers to the workflow briefing</h2>
+<section id="a-small-sample-register" class="level3">
+<h3 class="anchored" data-anchor-id="a-small-sample-register">A small sample register</h3>
+<p>I would keep one row per study x sample x wave, so a report selects its sample from the register instead of from a hand-typed filter. The values below are illustrative.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Example</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>study_id</td>
+<td>STUDY-X</td>
+<td>neutral study label</td>
+</tr>
+<tr class="even">
+<td>country, year</td>
+<td>XX, 20XX</td>
+<td>stays attached to every record and report</td>
+</tr>
+<tr class="odd">
+<td>sample_type</td>
+<td>NR</td>
+<td>NR, CF or NRCF</td>
+</tr>
+<tr class="even">
+<td>wave</td>
+<td>2</td>
+<td>wave label</td>
+</tr>
+<tr class="odd">
+<td>screening_rule</td>
+<td>national quota (age, gender, region)</td>
+<td>records extra filtering that can bias associations</td>
+</tr>
+<tr class="even">
+<td>recontact_link</td>
+<td>verified, key exercise_id</td>
+<td>only a verified link makes a file a panel</td>
+</tr>
+<tr class="odd">
+<td>instrument_version</td>
+<td>v3</td>
+<td>ties the wave to the archived QSF</td>
+</tr>
+<tr class="even">
+<td>n_records</td>
+<td>500</td>
+<td>analytic N check</td>
+</tr>
+<tr class="odd">
+<td>file_version</td>
+<td>processed v1</td>
+<td>which processed file the row describes</td>
+</tr>
+</tbody>
+</table>
+<p>A report would filter this register. An NRCF row would be allowed only if both component rows are eligible, and any analysis over time would require recontact_link to be verified, otherwise it is flagged as not a panel.</p>
+</section>
+<section id="one-item-from-qsf-to-processed-variable-including-a-legitimate-skip" class="level3">
+<h3 class="anchored" data-anchor-id="one-item-from-qsf-to-processed-variable-including-a-legitimate-skip">One item from QSF to processed variable, including a legitimate skip</h3>
+<p>Vote intention shows the chain on this extract. The QSF would give the question ID, the response options with their codes and the German text, and the instrument version. The export gives the column vote_w2 holding the text labels. A row in config/vote_categories.csv maps each label to an analysis category. The guide states that the options “would not vote” and “undecided” exist only from wave 2, so their absence in wave 1 is a structural difference between waves and not a missing value, and the report says so.</p>
+<p>A routed follow-up, shown only after answering Yes, works the same way. The specification would carry a routing column (parent item, shown if), so No on the parent gives a planned NA that the checks do not count as missing. None of the five scales in this extract is routed, so the routing column is proposed, not built.</p>
+</section>
+<section id="a-codebook-mismatch-the-checker-should-flag" class="level3">
+<h3 class="anchored" data-anchor-id="a-codebook-mismatch-the-checker-should-flag">A codebook mismatch the checker should flag</h3>
+<p>The specification already stores the keying from the guide and the keying applied, so a comparison is simple. My real example is D17.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Guide or codebook</th>
+<th>Data-derived</th>
+<th>Flag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SDO reverse-keyed items</td>
+<td>3, 4, 7, 8</td>
+<td>reversing them gives alpha near or below zero</td>
+<td>keying mismatch</td>
+</tr>
+</tbody>
+</table>
+<p>The checker reports the item, wave, expected behaviour and observed result. It does not correct anything. The research lead, with whoever knows how the export was coded, decides, and the outcome goes into the decision log and the specification.</p>
+</section>
+<section id="from-a-slack-decision-to-a-durable-record" class="level3">
+<h3 class="anchored" data-anchor-id="from-a-slack-decision-to-a-durable-record">From a Slack decision to a durable record</h3>
+<p>The smallest durable record is a dated decision-log entry (decision, rationale, owner) linked to a GitHub issue or pull request that changes the specification. The reviewer signs off in that pull request, and the master codebook row gets a link to it. Weekly meeting notes list only actions, each with an owner and an issue link, and never restate codes, so the notes cannot become a second codebook.</p>
+</section>
+<section id="a-public-page-for-how-a-variable-was-coded" class="level3">
+<h3 class="anchored" data-anchor-id="a-public-page-for-how-a-variable-was-coded">A public page for how a variable was coded</h3>
+<p>Each page would be generated from the specification and show: the original item text and English label, response options and numeric direction, keying in the guide and keying applied, special codes, score formula and minimum valid items, eligible waves, citation, the report that uses it, and the commit that produced it. Only the specification and aggregate checks feed it, never records. A reviewer approves each coding decision before its page is published.</p>
+</section>
+<section id="limesurvey-python-and-the-cluster" class="level3">
+<h3 class="anchored" data-anchor-id="limesurvey-python-and-the-cluster">LimeSurvey, Python and the cluster</h3>
+<p>LimeSurvey: the same requirement applies. The exported instrument file and the data export need stable item IDs, option codes, labels, translations and a version, and I would test one export against the specification before fielding.</p>
+<p>Python: I would use it only for one narrow task, reading a QSF or instrument file to draft specification rows. The draft is reviewed and committed as a CSV, and all analysis stays in R, so the specification remains the single source of truth.</p>
+<p>Cluster: it helps once a single-machine rebuild is too slow. Before running there, data access must be approved, intermediate files must stay inside the authorized environment, logs must hold no record values, and the publication check must run on the final site.</p>
+</section>
+<section id="the-research-direction-i-would-support-first" class="level3">
+<h3 class="anchored" data-anchor-id="the-research-direction-i-would-support-first">The research direction I would support first</h3>
+<p>Measurement and comparison. I have built an exploratory facet check for RWA and SDO (D41). The next verified output would be a confirmatory model with a measurement invariance check across waves, which would also settle how far the wave comparisons in these reports can go (D24).</p>
+</section>
 </section>
 <section id="decisions-i-would-make-myself-and-decisions-for-a-research-lead" class="level2">
 <h2 class="anchored" data-anchor-id="decisions-i-would-make-myself-and-decisions-for-a-research-lead">Decisions I would make myself, and decisions for a research lead</h2>
