@@ -67,7 +67,7 @@
     "href": "reports/sdo.html#descriptives-by-wave",
     "title": "Social dominance orientation",
     "section": "Descriptives by wave",
-    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n3.16\n0.94\n0.04\n3.25\n\n\n2\n500\n3.12\n1.01\n0.05\n3.25\n\n\n3\n500\n3.13\n0.99\n0.04\n3.25\n\n\n4\n500\n3.22\n0.98\n0.04\n3.38\n\n\n5\n500\n3.18\n1.02\n0.05\n3.25"
+    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n3.16\n0.94\n0.04\n3.25\n\n\n2\n500\n3.12\n1.01\n0.05\n3.25\n\n\n3\n500\n3.13\n0.99\n0.04\n3.25\n\n\n4\n500\n3.22\n0.98\n0.04\n3.38\n\n\n5\n500\n3.18\n1.02\n0.05\n3.25\n\n\n\n\n\n\n\n\n\n\nScore distribution by wave (density). Bins with fewer than 10 respondents are merged with a neighbouring bin, so no bar is hidden."
   },
   {
     "objectID": "reports/sdo.html#missing-and-invalid-responses-by-wave",
@@ -130,7 +130,7 @@
     "href": "reports/cwv.html#descriptives-by-wave",
     "title": "Competitive worldview",
     "section": "Descriptives by wave",
-    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n2.23\n0.96\n0.04\n2.25\n\n\n2\n500\n2.24\n0.96\n0.04\n2.00\n\n\n3\n500\n2.17\n1.03\n0.05\n2.00\n\n\n4\n500\n2.28\n0.99\n0.04\n2.00\n\n\n5\n500\n2.16\n1.03\n0.05\n2.00"
+    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n2.23\n0.96\n0.04\n2.25\n\n\n2\n500\n2.24\n0.96\n0.04\n2.00\n\n\n3\n500\n2.17\n1.03\n0.05\n2.00\n\n\n4\n500\n2.28\n0.99\n0.04\n2.00\n\n\n5\n500\n2.16\n1.03\n0.05\n2.00\n\n\n\n\n\n\n\n\n\n\nScore distribution by wave (density). Bins with fewer than 10 respondents are merged with a neighbouring bin, so no bar is hidden."
   },
   {
     "objectID": "reports/cwv.html#missing-and-invalid-responses-by-wave",
@@ -263,7 +263,7 @@
     "href": "reports/bdw.html#descriptives-by-wave",
     "title": "Belief in a dangerous world",
     "section": "Descriptives by wave",
-    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n3.97\n1.16\n0.05\n3.8\n\n\n2\n500\n4.09\n1.18\n0.05\n4.0\n\n\n3\n500\n4.02\n1.18\n0.05\n4.0\n\n\n4\n500\n4.09\n1.26\n0.06\n4.0\n\n\n5\n500\n4.14\n1.22\n0.05\n4.2"
+    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n3.97\n1.16\n0.05\n3.8\n\n\n2\n500\n4.09\n1.18\n0.05\n4.0\n\n\n3\n500\n4.02\n1.18\n0.05\n4.0\n\n\n4\n500\n4.09\n1.26\n0.06\n4.0\n\n\n5\n500\n4.14\n1.22\n0.05\n4.2\n\n\n\n\n\n\n\n\n\n\nScore distribution by wave (density). Bins with fewer than 10 respondents are merged with a neighbouring bin, so no bar is hidden."
   },
   {
     "objectID": "reports/bdw.html#missing-and-invalid-responses-by-wave",
@@ -326,7 +326,7 @@
     "href": "reports/rwa.html#descriptives-by-wave",
     "title": "Right-wing authoritarianism",
     "section": "Descriptives by wave",
-    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n4.08\n1.09\n0.05\n4.11\n\n\n2\n500\n4.02\n1.10\n0.05\n4.11\n\n\n3\n500\n4.09\n1.16\n0.05\n4.22\n\n\n4\n500\n4.08\n1.17\n0.05\n4.22\n\n\n5\n500\n4.14\n1.11\n0.05\n4.22"
+    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n4.08\n1.09\n0.05\n4.11\n\n\n2\n500\n4.02\n1.10\n0.05\n4.11\n\n\n3\n500\n4.09\n1.16\n0.05\n4.22\n\n\n4\n500\n4.08\n1.17\n0.05\n4.22\n\n\n5\n500\n4.14\n1.11\n0.05\n4.22\n\n\n\n\n\n\n\n\n\n\nScore distribution by wave (density). Bins with fewer than 10 respondents are merged with a neighbouring bin, so no bar is hidden."
   },
   {
     "objectID": "reports/rwa.html#missing-and-invalid-responses-by-wave",
@@ -389,7 +389,7 @@
     "href": "reports/sj.html#descriptives-by-wave",
     "title": "System justification",
     "section": "Descriptives by wave",
-    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n3.87\n1.14\n0.05\n4.00\n\n\n2\n500\n3.68\n1.20\n0.05\n3.75\n\n\n3\n500\n3.84\n1.18\n0.05\n3.88\n\n\n4\n500\n3.79\n1.17\n0.05\n3.88\n\n\n5\n500\n3.79\n1.20\n0.05\n3.88"
+    "text": "Descriptives by wave\n\n\n\nScale-score descriptives per wave. Minimum and maximum are not shown because they are single respondents’ values.\n\n\nwave\nn\nmean\nsd\nse\nmedian\n\n\n\n\n1\n500\n3.87\n1.14\n0.05\n4.00\n\n\n2\n500\n3.68\n1.20\n0.05\n3.75\n\n\n3\n500\n3.84\n1.18\n0.05\n3.88\n\n\n4\n500\n3.79\n1.17\n0.05\n3.88\n\n\n5\n500\n3.79\n1.20\n0.05\n3.88\n\n\n\n\n\n\n\n\n\n\nScore distribution by wave (density). Bins with fewer than 10 respondents are merged with a neighbouring bin, so no bar is hidden."
   },
   {
     "objectID": "reports/sj.html#missing-and-invalid-responses-by-wave",
